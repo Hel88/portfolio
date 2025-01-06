@@ -1,0 +1,36 @@
+
+:root{
+  --blue:#4F6886;
+  --gray:#ececec;
+}
+
+
+
+main {
+  color: var(--blue);
+  background: var(--gray);
+  font-family: var(--font-jlato);
+}
+
+
+
+h2, h3{
+  font-family: var(--font-julius-sans-one);
+}
+
+
+.blue-paragraph{
+  color: var(--gray);
+  background: var(--blue);
+  font-family: var(--font-jlato);
+
+}
+
+.skillbadge {
+  height: 40px; 
+  width: auto; 
+}
+
+section {
+  scroll-margin-top: 70px; /* Ajustez en fonction de la hauteur de votre barre */
+}
