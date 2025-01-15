@@ -14,7 +14,11 @@ main {
 
 
 
-h2, h3{
+h2{
+  font-family: var(--font-julius-sans-one);
+}
+
+h3{
   font-family: var(--font-julius-sans-one);
 }
 
@@ -33,4 +37,16 @@ h2, h3{
 
 section {
   scroll-margin-top: 70px; /* Ajustez en fonction de la hauteur de votre barre */
+}
+
+/* Taille et apparence par défaut */
+.arrow-icon {
+  font-size: 15rem; /* Définit la taille de l'icône */
+  color: #ececec; /* Couleur initiale */
+  transition: transform 0.3s, color 0.3s; /* Animation fluide pour les changements */
+}
+
+/* Effet au survol */
+.arrow-link:hover .arrow-icon {
+  transform: scale(1.2); /* Agrandit légèrement l'icône */
 }

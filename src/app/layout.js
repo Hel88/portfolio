@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Julius_Sans_One, Lato } from "next/font/google";
+import { Geist, Geist_Mono, Julius_Sans_One, Lato, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import BootstrapClient from '@/components/BootstrapClient.js';
@@ -7,6 +7,7 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -25,6 +26,10 @@ const lato = Lato({
   weight: '400',
 });
 
+const jetbrainmono = JetBrains_Mono({
+  variable: "--font-jet-brain-mono",
+  subsets: ["latin"],
+});
 
 
 export const metadata = {
@@ -35,7 +40,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${julius_sans_one.variable} ${lato.variable} `}>
+      <body className={`${julius_sans_one.variable} ${lato.variable} ${jetbrainmono.variable} `}>
         {children}
         <BootstrapClient />
       </body>

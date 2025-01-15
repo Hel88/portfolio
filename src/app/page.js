@@ -1,15 +1,20 @@
 import Navigation from '../components/Navigation';
 import styles from "./page.module.css";
 import Image from "next/image";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 export default function Home() {
   return (
     <div className='pt-3'>
+        <Navigation />
       <main data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-        <Navigation />
 
-        <div className='blue-paragraph'>
+        <div className="d-flex flex-column justify-content-center align-items-center text-center ">
+          
+        </div>
+        <div className='blue-paragraph min-vh-100 d-flex flex-column justify-content-center'>
           <div className='p-5 col-md-8 mt-4 mx-auto'>
 
             <h2 id="title-welcome">Welcome!</h2>
@@ -22,9 +27,47 @@ export default function Home() {
 
               <p>I am currently doing a dual degree in video game development at UQAC (Canada), and computer science at Telecom Nancy (France).</p>
 
-              <p>I am especially interested in game development, but also in data sciences and machine learning. I am eager to learn new skills, and most of all to create meaningful user experiences.</p>
+              <p>I am especially interested in game development, but also in data science and machine learning. I am eager to learn new skills, and most of all to create meaningful user experiences.</p>
 
               <p>You will find here some of the projects I worked on, along with information about me. Feel free to reach out!</p>
+            
+              <br></br>
+
+              <p>
+              <a
+                href="/cv.pdf"
+                download="CV_Helena_Barbillon.pdf"
+                className="btn btn-outline-light "
+                role="button"
+              >
+                <i className="bi bi-download me-2"></i> Download french resume
+              </a>
+            </p>
+            <br></br>
+
+
+
+              <p className="text-center">
+              <a href="#title-projects" className="arrow-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50" 
+                  height="50"
+                  fill="white"
+                  className="bi bi-arrow-down-circle arrow-icon"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"
+                  />
+                </svg>
+
+                
+              </a>
+            </p>
+
+            
             </div>
           </div>
         </div>
@@ -96,7 +139,6 @@ export default function Home() {
                     <p className="text-muted">
                       I worked on the grappling hook mechanism, along with the movements of the frog, and setting the animations from the asset pack.
                     </p>
-                    <p className="text-muted mt-3">Final mark: 18,25/20</p>
                   </div>
                   <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
 
@@ -121,7 +163,7 @@ export default function Home() {
                     </div>
                     <p className="text-muted mt-3">This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.</p>
                     <p className="text-muted mt-3">I worked on the movements of the players, on the UI elements and on the designs of the game.</p>
-                    <p className="text-muted mt-3">Final mark: 26,00/26,00</p>
+                   
                   </div>
                   <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
 
@@ -170,7 +212,6 @@ export default function Home() {
                     <p className="text-muted mt-3">
                       My first-ever video game with Unreal Engine was a brick breaker game.
                     </p>
-                    <p className="text-muted mt-3">Final mark: 14,75/15,00</p>
                   </div>
                   <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
 
@@ -394,7 +435,7 @@ export default function Home() {
               </div>
               <div className='col'>
                 <h5>UQAC - Université du Québec à Chicoutimi (Canada)</h5>
-                <p>Dual degree in computer science with a focus on <strong>video game</strong></p>
+                <p>Dual degree in computer science with a focus on <strong>video games</strong></p>
 
                 <div className='accordion' id="ac1">
                   <div className='accordion-item'>
@@ -406,20 +447,20 @@ export default function Home() {
                     <div id="flush-collapseOne1" className="accordion-collapse collapse" data-bs-parent="#ac1">
                       <div className="accordion-body">
 
-                        Winter trimester:
-                        <ul>
-                          <li>Practical video game workshop</li>
-                          <li>3D interaction and virtual reality</li>
-                          <li>Mobile applications development</li>
-                          <li>Deep learning</li>
-                        </ul>
-
-                        Fall trimester:
+                        Fall 2024 trimester:
                         <ul>
                           <li>Game development principles</li>
                           <li>Game engine principles</li>
                           <li>Mathematics and physics for video games</li>
                           <li>Machine learning</li>
+                        </ul>
+
+                        Winter 2025 trimester:
+                        <ul>
+                          <li>Practical video game workshop</li>
+                          <li>3D interaction and virtual reality</li>
+                          <li>Mobile applications development</li>
+                          <li>Deep learning</li>
                         </ul>
                       </div>
                     </div>
@@ -500,8 +541,7 @@ export default function Home() {
                   style={{ width: '150px', cursor: 'pointer' }}
                 >
                   <div className="card-body">
-                    <i className="bi bi-linkedin" style={{ fontSize: '2rem', color: '#0A66C2' }}></i>
-                    <Image src="/linkedin.png" alt="linkedin" width={100} height={100} />
+                    <i className="bi bi-linkedin" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
                     <p className="mt-2 mb-0">LinkedIn</p>
 
                   </div>
@@ -515,8 +555,8 @@ export default function Home() {
                   style={{ width: '150px', cursor: 'pointer' }}
                 >
                   <div className="card-body">
-                    <i className="bi bi-envelope" style={{ fontSize: '2rem', color: '#d9534f' }}></i>
-                    <Image src="/mail.png" alt="mail" width={100} height={100} />
+                    <i className="bi bi-envelope" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
+                    
                     <p className="mt-2 mb-0">Mail</p>
                     <p className='text-muted'>helena.barbillon@orange.fr</p>
 
@@ -532,8 +572,7 @@ export default function Home() {
                   style={{ width: '150px', cursor: 'pointer' }}
                 >
                   <div className="card-body">
-                    <i className="bi bi-github" style={{ fontSize: '2rem', color: '#333' }}></i>
-                    <Image src="/github.svg" alt="github" width={100} height={100} />
+                    <i className="bi bi-github" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
                     <p className="mt-2 mb-0">GitHub</p>
                     <p className='text-muted'>Hel88</p>
                   </div>
