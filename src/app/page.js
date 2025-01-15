@@ -406,18 +406,18 @@ export default function Home() {
                     <div id="flush-collapseOne1" className="accordion-collapse collapse" data-bs-parent="#ac1">
                       <div className="accordion-body">
 
-                        Fall trimester:
+                        Winter trimester:
                         <ul>
                           <li>Practical video game workshop</li>
                           <li>3D interaction and virtual reality</li>
-                          <li>Mobile app development</li>
+                          <li>Mobile applications development</li>
                           <li>Deep learning</li>
                         </ul>
 
-                        Winter trimester:
+                        Fall trimester:
                         <ul>
-                          <li>Game engine principles</li>
                           <li>Game development principles</li>
+                          <li>Game engine principles</li>
                           <li>Mathematics and physics for video games</li>
                           <li>Machine learning</li>
                         </ul>
