@@ -2,8 +2,8 @@
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top container-fluid mx-auto">
+      <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Héléna Barbillon
         </a>

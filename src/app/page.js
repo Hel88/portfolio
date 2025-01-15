@@ -6,23 +6,19 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Home() {
   return (
-    <div className='pt-3'>
-        <Navigation />
+    <div className='pt-5'>
       <main data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
+      <Navigation />
 
-        <div className="d-flex flex-column justify-content-center align-items-center text-center ">
-          
+      <div className="d-flex flex-column justify-content-center align-items-center text-center">
         </div>
         <div className='blue-paragraph min-vh-100 d-flex flex-column justify-content-center'>
-          <div className='p-5 col-md-8 mt-4 mx-auto'>
-
+          <div className='p-3 p-md-5 col-10 col-md-8 mt-4 mx-auto'>
             <h2 id="title-welcome">Welcome!</h2>
 
-
-            <div className="lead p-5">
+            <div className="lead p-3 p-md-5">
               <p> Hi and welcome on my portfolio! </p>
-
               <p>I am <strong>Héléna Barbillon</strong>, a french computer science student.</p>
 
               <p>I am currently doing a dual degree in video game development at UQAC (Canada), and computer science at Telecom Nancy (France).</p>
@@ -178,18 +174,19 @@ export default function Home() {
                     My first video game with Unreal
                   </div>
 
-                  <div id="brickbreaker" className="carousel slide" data-bs-ride="carousel">
+                  <div id="brickbreaker" className="carousel slide">
                     <div className="carousel-indicators">
                       <button type="button" data-bs-target="#brickbreaker" data-bs-slide-to="0" className="active"></button>
                       <button type="button" data-bs-target="#brickbreaker" data-bs-slide-to="1"></button>
                     </div>
 
                     <div className="carousel-inner">
+                      
                       <div className="carousel-item active">
-                        <img className="card-img-top" src="/brickbreaker2.png" alt="brick breaker image" style={{ width: "100%" }} />
+                        <img className="card-img-top" src="/brickbreaker.png" alt="brick breaker image" style={{ width: "100%" }} />
                       </div>
                       <div className="carousel-item">
-                        <img className="card-img-top" src="/brickbreaker.png" alt="brick breaker image" style={{ width: "100%" }} />
+                        <video className="card-img-top" src="/brickbreaker_gameplay.mp4" alt="brick breaker image" style={{ width: "100%" }} muted autoPlay loop />
                       </div>
 
                       <button className="carousel-control-prev" type="button" data-bs-target="#brickbreaker" data-bs-slide="prev">
