@@ -149,8 +149,39 @@ export default function Home() {
                     <h3>Shroomboom</h3>
                     Remaking of the bomberman game
                   </div>
-                  <img className="card-img-top" src="/bomberman.png" alt="Bomberman image" style={{ width: "100%" }} />
 
+
+                  <div id="bomberman" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                      <button type="button" data-bs-target="#bomberman" data-bs-slide-to="0" className="active"></button>
+                      <button type="button" data-bs-target="#bomberman" data-bs-slide-to="1"></button>
+
+                    </div>
+
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                      <img className="card-img-top" src="/bomberman.png" alt="Bomberman image" style={{ width: "100%" }} />
+                      </div>
+                      <div className="carousel-item">
+                      <video className="card-img-top" src="/bomberman_gameplay.mp4" alt="bomberman video" style={{ width: "100%" }} muted autoPlay loop />
+                      </div>
+                      
+
+
+                      <button className="carousel-control-prev" type="button" data-bs-target="#bomberman" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon"></span>
+                      </button>
+                      <button className="carousel-control-next" type="button" data-bs-target="#bomberman" data-bs-slide="next">
+                        <span className="carousel-control-next-icon"></span>
+                      </button>
+                    </div>
+
+
+                  </div>
+
+
+
+                 
                   <div className="card-body">
                     <div className="d-flex flex-wrap justify-content-center gap-3">
                       <span className="badge bg-secondary">Team of 3 students</span>
@@ -554,7 +585,7 @@ export default function Home() {
                   <div className="card-body">
                     <i className="bi bi-envelope" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
                     
-                    <p className="mt-2 mb-0">Mail</p>
+                    <p className="mt-2 mb-0">Email</p>
                     <p className='text-muted'>helena.barbillon@orange.fr</p>
 
                   </div>
