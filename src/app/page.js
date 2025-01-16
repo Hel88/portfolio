@@ -98,10 +98,10 @@ export default function Home() {
                       <img className="card-img-top" src="/frog3.png" alt="Frogy Frog image" style={{ width: "100%" }} />
                       </div>
                       <div className="carousel-item">
-                        <img className="card-img-top" src="/frog2.png" alt="frogy frog game image" style={{ width: "100%" }} />
+                      <video className="card-img-top" src="/frogyfrog_gameplay.mp4" alt="frogyfrog video" style={{ width: "100%" }} muted autoPlay loop />
                       </div>
                       <div className="carousel-item">
-                        <img className="card-img-top" src="/frog.png" alt="frogy frog game image" style={{ width: "100%" }} />
+                        <img className="card-img-top" src="/frog2.png" alt="frogy frog game image" style={{ width: "100%" }} />
                       </div>
                       <div className="carousel-item">
                         <img className="card-img-top" src="/frog4.png" alt="frogy frog game image" style={{ width: "100%" }} />
