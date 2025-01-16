@@ -2,7 +2,7 @@
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top container-fluid mx-auto">
+    <nav className="navbar navbar-expand-lg  fixed-top container-fluid mx-auto">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Héléna Barbillon
@@ -22,23 +22,23 @@ const Navigation = () => {
           <ul className="navbar-nav ms-auto">
           
             <li className="nav-item">
-              <a className="nav-link active" href="#title-projects">
-                Projects
+              <a className="nav-link" href="#title-projects">
+              <i className="bi bi-laptop"></i> Projects
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#title-skills">
-                Skills
+              <i className="bi bi-code"></i> Skills
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#title-education">
-                Education
+              <i className="bi bi-backpack"></i> Education
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#title-contact">
-                Contact
+              <i className="bi bi-chat-right"></i> Contact
               </a>
             </li>
           </ul>

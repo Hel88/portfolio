@@ -5,7 +5,9 @@ import Image from "next/image";
 const Skills = () => {
     return (
         <div>
-            <h2 className="my-3 pt-3">Skills</h2>
+            <div className="text-center py-3">
+                <h2 className="my-3 pt-3">Skills</h2>
+            </div>
 
 
             <div className="container py-3">

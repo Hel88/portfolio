@@ -4,7 +4,7 @@ import Image from "next/image";
 const Contact = () => {
     return (
         <div>
-            <h2 className="my-3 pt-3 text-center">Contact me</h2>
+            <h2 className="my-3 py-3 text-center">Contact me</h2>
 
             <div className="d-flex flex-wrap justify-content-center gap-3">
                 {/* LinkedIn Card */}

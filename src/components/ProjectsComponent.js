@@ -4,8 +4,9 @@ import Image from "next/image";
 const Projects = () => {
     return (
         <div>
-
-            <h2 className="my-3 pt-3">Projects</h2>
+            <div className="text-center py-3">
+                <h2 className="my-3 pt-3">Projects</h2>
+            </div>
 
             <div className="row row-cols-1 row-cols-md-2 g-4">
 
@@ -18,7 +19,7 @@ const Projects = () => {
                         </div>
 
 
-                        <div id="frogyfrog" className="carousel slide" data-bs-ride="carousel">
+                        <div id="frogyfrog" className="carousel slide">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#frogyfrog" data-bs-slide-to="0" className="active"></button>
                                 <button type="button" data-bs-target="#frogyfrog" data-bs-slide-to="1"></button>
@@ -49,12 +50,7 @@ const Projects = () => {
                                     <span className="carousel-control-next-icon"></span>
                                 </button>
                             </div>
-
-
                         </div>
-
-
-
 
 
                         <div className="card-body">
@@ -85,7 +81,7 @@ const Projects = () => {
                         </div>
 
 
-                        <div id="bomberman" className="carousel slide" data-bs-ride="carousel">
+                        <div id="bomberman" className="carousel slide">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#bomberman" data-bs-slide-to="0" className="active"></button>
                                 <button type="button" data-bs-target="#bomberman" data-bs-slide-to="1"></button>

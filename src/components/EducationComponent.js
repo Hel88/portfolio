@@ -7,7 +7,9 @@ const Education = () => {
 
 
         <div>
-            <h2 className="my-3 pt-3">Education</h2>
+            <div className="text-center py-3">   
+                <h2 className="my-3 pt-3">Education</h2>
+            </div>
             <br></br>
 
 

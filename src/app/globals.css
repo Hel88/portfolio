@@ -1,7 +1,8 @@
 
 :root{
   --blue:#2e445e;
-  --gray:#ececec;
+  --gray:#e8e8e8;
+
 
   --turquoise: #bfe0e4;
   --light-blue:#accde1;
@@ -22,18 +23,39 @@ main {
 
 
 h2{
-  font-family: var(--font-julius-sans-one);
+  font-family: var(--font-jet-brain-mono);
+  font-weight: 500 !important;
+
 }
 
 h3{
-  font-family: var(--font-julius-sans-one);
+  font-family: var(--font-jet-brain-mono);
+  font-weight: 400 !important;
+  font-size:x-large !important;
+  color: #585858 !important;
 }
+
+
 
 
 .blue-paragraph{
   color: var(--gray);
   background: var(--blue);
   font-family: var(--font-jlato);
+
+}
+
+nav{
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+.nav-item:hover{
+  background-color: rgba(173, 186, 201, 0.7);
+
+}
+
+.navbar-brand{
+  font-family: var(--font-jet-brain-mono);
 
 }
 

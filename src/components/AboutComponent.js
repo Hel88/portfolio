@@ -4,7 +4,7 @@ import Image from "next/image";
 const About = () => {
     return (
 
-        <div className='blue-paragraph min-vh-100 d-flex flex-column justify-content-center'>
+        <div className='blue-paragraph min-vh-100 d-flex flex-column justify-content-center pt-5'>
             <div className='p-3 p-md-5 col-10 col-md-8 mt-4 mx-auto'>
                 <h2 id="title-welcome">Welcome!</h2>
 
@@ -23,11 +23,12 @@ const About = () => {
                     <p>
                         <a
                             href="/cv.pdf"
-                            download="CV_Helena_Barbillon.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn btn-outline-light "
                             role="button"
                         >
-                            <i className="bi bi-download me-2"></i> Download french resume
+                            <i className="bi bi-file-earmark-person"></i> French resume
                         </a>
                     </p>
                     <br></br>

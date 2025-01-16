@@ -4,6 +4,7 @@ import Projects from '../components/ProjectsComponent';
 import Skills from '../components/SkillsComponent';
 import Contact from '../components/ContactComponent';
 import About from '../components/AboutComponent';
+
 import styles from "./page.module.css";
 import Image from "next/image";
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -12,7 +13,6 @@ import dynamic from 'next/dynamic';
 
 export default function Home() {
   return (
-    <div className='pt-5'>
       <main data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
         {/* Barre de navigation */}
@@ -50,7 +50,7 @@ export default function Home() {
             </section>
 
             <div className='pt-5'> </div>
-            <p className='text-center text-muted'>
+            <p className='text-center text-secondary'>
               <em>Made with nextjs and bootstrap. Last updated : jan 2025</em>
             </p>
 
@@ -58,6 +58,5 @@ export default function Home() {
         </div>
 
       </main>
-    </div>
   )
 }
