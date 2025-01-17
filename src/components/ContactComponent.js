@@ -16,7 +16,7 @@ const Contact = () => {
                     style={{ width: '150px', cursor: 'pointer' }}
                 >
                     <div className="card-body">
-                        <i className="bi bi-linkedin" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
+                        <i className="bi bi-linkedin" style={{ fontSize: '5rem', color: '#2e445e' }}></i>
                         <p className="mt-2 mb-0">LinkedIn</p>
 
                     </div>
@@ -30,7 +30,7 @@ const Contact = () => {
                     style={{ width: '150px', cursor: 'pointer' }}
                 >
                     <div className="card-body">
-                        <i className="bi bi-envelope" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
+                        <i className="bi bi-envelope" style={{ fontSize: '5rem', color: '#2e445e' }}></i>
 
                         <p className="mt-2 mb-0">Email</p>
                         <p className='text-muted'>helena.barbillon@orange.fr</p>
@@ -47,7 +47,7 @@ const Contact = () => {
                     style={{ width: '150px', cursor: 'pointer' }}
                 >
                     <div className="card-body">
-                        <i className="bi bi-github" style={{ fontSize: '5rem', color: '#4F6886' }}></i>
+                        <i className="bi bi-github" style={{ fontSize: '5rem', color: '#2e445e' }}></i>
                         <p className="mt-2 mb-0">GitHub</p>
                         <p className='text-muted'>Hel88</p>
                     </div>
