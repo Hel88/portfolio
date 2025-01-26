@@ -38,7 +38,7 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#title-contact">
-              <i className="bi bi-chat-right"></i> Contact
+              <i className="bi bi-link-45deg"></i> Links
               </a>
             </li>
           </ul>

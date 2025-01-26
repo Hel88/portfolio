@@ -4,7 +4,7 @@ import Image from "next/image";
 const Contact = () => {
     return (
         <div>
-            <h2 className="my-3 py-3 text-center">Contact me</h2>
+            <h2 className="my-3 py-3 text-center">Links</h2>
 
             <div className="d-flex flex-wrap justify-content-center gap-3">
                 {/* LinkedIn Card */}
@@ -52,7 +52,25 @@ const Contact = () => {
                         <p className='text-muted'>Hel88</p>
                     </div>
                 </a>
+
+                {/* Itch Card */}
+                <a
+                    href="https://hel88.itch.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card text-center text-decoration-none border-0 shadow-sm"
+                    style={{ width: '150px', cursor: 'pointer' }}
+                >
+                    <div className="card-body">
+                        <i className="bi bi-controller" style={{ fontSize: '5rem', color: '#2e445e' }}></i>
+                        <p className="mt-2 mb-0">Itch.io</p>
+                        <p className='text-muted'>Hel88</p>
+                    </div>
+                </a>
+                
             </div>
+
+            
         </div>
 
     );

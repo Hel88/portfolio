@@ -139,6 +139,7 @@ const Projects = () => {
                             <a href="https://kiribaton.itch.io/lifttoheaven" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-link"></i> Itch.io page
                         </a>
+                        
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">Game jam project</div>
                     </div>
