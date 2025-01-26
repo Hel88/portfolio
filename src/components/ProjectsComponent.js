@@ -137,7 +137,7 @@ const Projects = () => {
 
                             
                             <a href="https://kiribaton.itch.io/lifttoheaven" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-link"></i> Itch.io page
+                            <i className="bi bi-link"></i> Itch.io page
                         </a>
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">Game jam project</div>
@@ -200,9 +200,10 @@ const Projects = () => {
                                 I worked on the grappling hook mechanism, along with the movements of the frog, and setting the animations from the asset pack.
                             </p>
                             <a href="https://mathis-ollier.itch.io/frogyfrog" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-link"></i> Itch.io page
+                            <i className="bi bi-link"></i> Itch.io page
                         </a>
-                        </div>
+
+                       </div>
                         <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
 
 
@@ -371,7 +372,7 @@ const Projects = () => {
                                 I worked on the user interface, as well as including the model to the project.
                             </p>
                             <a href="https://github.com/Hel88/SignLanguageAlphabetRecognition" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-link"></i> Github page</a>
+                            <i className="bi bi-link"></i> Github page</a>
                         
 
                             
@@ -408,7 +409,7 @@ const Projects = () => {
                                 One of the challenges of this project was analyzing the extensive data provided, originating from five different sources, to identify the relevant information and establish meaningful connections between them.
                             </p>
                             <a href="https://github.com/TheoHorn/gmd_project"className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-link"></i> Github page</a>
+                            <i className="bi bi-link"></i> Github page</a>
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
                     </div>
@@ -453,7 +454,7 @@ const Projects = () => {
 
                             </p>
                             <a href='https://github.com/Hel88/Codingweek2024'className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-link"></i> Github page</a>
+                            <i className="bi bi-link"></i> Github page</a>
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
                     </div>
