@@ -3,15 +3,23 @@ import Image from "next/image";
 import React, { useRef, useState } from "react";
 
 const Projects = () => {
-    const videoRef = useRef(null); // Référence à la vidéo
-  const [isMuted, setIsMuted] = useState(true); // État pour le son
+    // États pour chaque vidéo
+    const [isMuted1, setIsMuted1] = useState(true);
+    const [isMuted2, setIsMuted2] = useState(true);
+    const [isMuted3, setIsMuted3] = useState(true);
 
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !videoRef.current.muted; // Inverse l'attribut muted
-      setIsMuted(videoRef.current.muted); // Met à jour l'état
-    }
-  };
+    const videoRef1 = useRef(null);
+    const videoRef2 = useRef(null);
+    const videoRef3 = useRef(null);
+
+    const toggleMute = (videoRef, setIsMuted) => {
+        if (videoRef?.current) {
+            videoRef.current.muted = !videoRef.current.muted; // Inverse l'attribut muted
+            setIsMuted(videoRef.current.muted); // Met à jour l'état
+        }
+    };
+
+
     return (
         <div>
             <div className="text-center py-3">
@@ -19,7 +27,7 @@ const Projects = () => {
             </div>
 
 
-            
+
 
             <div className="row row-cols-1 row-cols-md-2 g-4">
 
@@ -29,8 +37,8 @@ const Projects = () => {
                 <div className="col">
                     <div className="card h-100">
                         <div className="card-header">
-                        <h3>Lift To Heaven</h3>
-                        Code game jam 2025
+                            <h3>Lift To Heaven</h3>
+                            Code game jam 2025
                         </div>
 
                         <div id="liftToHeaven" className="carousel slide">
@@ -50,13 +58,62 @@ const Projects = () => {
                                     <img className="card-img-top" src="/liftToHeaven2.png" alt="liftToHeaven image" style={{ width: "100%" }} />
                                 </div>
                                 <div className="carousel-item">
-                                    <video className="card-img-top" src="/liftToHeaven3.mp4" alt="liftToHeaven video" style={{ width: "100%" }} muted autoPlay loop />
+                                    <video
+                                    ref={videoRef1} 
+                                    className="card-img-top" 
+                                    src="/liftToHeaven3.mp4" 
+                                    alt="liftToHeaven video" 
+                                    style={{ width: "100%" }} 
+                                    muted={isMuted1} 
+                                    autoPlay loop />
+                                    {/* Icône de mute/unmute */}
+                                    <div
+                                        onClick={()=>toggleMute(videoRef1, setIsMuted1)}
+                                        style={{
+                                            position: "absolute",
+                                            bottom: "20px",
+                                            left: "50%",
+                                            transform: "translateX(-50%)",
+                                            cursor: "pointer",
+                                            color: "white",
+                                            backgroundColor: "rgba(0, 0, 0, 0.5)",
+                                            borderRadius: "50%",
+                                            padding: "10px",
+                                        }}
+                                    >
+                                        {isMuted1 ? (
+                                            <i className="bi bi-volume-mute-fill" style={{ fontSize: "24px" }}></i>
+                                        ) : (
+                                            <i className="bi bi-volume-up-fill" style={{ fontSize: "24px" }}></i>
+                                        )}
+                                </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <video className="card-img-top" src="/liftToHeaven4.mp4" alt="liftToHeaven video" style={{ width: "100%" }} muted autoPlay loop />
-                                </div>
-
-
+                                    <video ref={videoRef2} 
+                                    className="card-img-top" src="/liftToHeaven4.mp4" alt="liftToHeaven video" style={{ width: "100%" }} muted autoPlay loop />
+                                
+                                {/* Icône de mute/unmute */}
+                                <div
+                                        onClick={()=>toggleMute(videoRef2, setIsMuted2)}
+                                        style={{
+                                            position: "absolute",
+                                            bottom: "20px",
+                                            left: "50%",
+                                            transform: "translateX(-50%)",
+                                            cursor: "pointer",
+                                            color: "white",
+                                            backgroundColor: "rgba(0, 0, 0, 0.5)",
+                                            borderRadius: "50%",
+                                            padding: "10px",
+                                        }}
+                                    >
+                                        {isMuted2 ? (
+                                            <i className="bi bi-volume-mute-fill" style={{ fontSize: "24px" }}></i>
+                                        ) : (
+                                            <i className="bi bi-volume-up-fill" style={{ fontSize: "24px" }}></i>
+                                        )}
+                                        </div>
+                                        </div>
                                 <button className="carousel-control-prev" type="button" data-bs-target="#liftToHeaven" data-bs-slide="prev">
                                     <span className="carousel-control-prev-icon"></span>
                                 </button>
@@ -68,20 +125,24 @@ const Projects = () => {
 
 
 
-                        
+
                         <div className="card-body">
-                        <div className="d-flex flex-wrap justify-content-center gap-3">
-                            <span className="badge bg-secondary">Team of 3</span>
-                            <span className="badge bg-secondary">30 hours</span>
-                            <span className="badge bg-secondary">Unreal engine</span>
+                            <div className="d-flex flex-wrap justify-content-center gap-3">
+                                <span className="badge bg-secondary">Team of 3</span>
+                                <span className="badge bg-secondary">30 hours (game jam)</span>
+                                <span className="badge bg-secondary">Unreal engine</span>
+                            </div>
+                            <p className="text-muted mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. He/she has to find them in boxes, under hats or rugs, in order to increase the volume of the music.</p>
+                            <p className="text-muted mt-3"> This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was "Mélodie à l'infini" (melody to infinity).</p>
+
+                            
+                            <a href="https://kiribaton.itch.io/lifttoheaven" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-link"></i> Itch.io page
+                        </a>
                         </div>
-                        <p className="text-muted mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. He/she has to find them in boxes, under hats or rugs, to increase the volume of the music.</p>
-                        <p className="text-muted mt-3">The theme of the game jam was "Melodie à l'infini" (melody to infinity).</p>
-                        <a href='https://kiribaton.itch.io/lifttoheaven'>Itch.io page</a>                  
-                        </div>
-                        <div className="card-footer text-muted text-center fw-lighter">Game jam</div>
+                        <div className="card-footer text-muted text-center fw-lighter">Game jam project</div>
                     </div>
-                    </div> 
+                </div>
 
                 {/* Frogy Frog */}
                 <div className="col">
@@ -128,9 +189,9 @@ const Projects = () => {
 
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3 students</span>
+                                <span className="badge bg-secondary">Team of 3</span>
                                 <span className="badge bg-secondary">5 weeks</span>
-                                <span className="badge bg-secondary">Unreal engine (C++)</span>
+                                <span className="badge bg-secondary">Unreal engine</span>
                             </div>
                             <p className="text-muted mt-3">
                                 In this single-player game, the user controls a small frog which has to escape the kitchen using its tongue as a grappling hook.
@@ -138,6 +199,9 @@ const Projects = () => {
                             <p className="text-muted">
                                 I worked on the grappling hook mechanism, along with the movements of the frog, and setting the animations from the asset pack.
                             </p>
+                            <a href="https://mathis-ollier.itch.io/frogyfrog" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-link"></i> Itch.io page
+                        </a>
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
 
@@ -166,39 +230,39 @@ const Projects = () => {
                                     <img className="card-img-top" src="/bomberman.png" alt="Bomberman image" style={{ width: "100%" }} />
                                 </div>
                                 <div className="carousel-item">
-                                <video
-                                    ref={videoRef}
-                                    className="card-img-top"
-                                    src="/bomberman_prise1.mp4"
-                                    alt="Bomberman video"
-                                    style={{ width: "100%" }}
-                                    muted={isMuted} // Contrôle initial du son
-                                    autoPlay
-                                    loop
-                                    
+                                    <video
+                                        ref={videoRef3}
+                                        className="card-img-top"
+                                        src="/bomberman_prise1.mp4"
+                                        alt="Bomberman video"
+                                        style={{ width: "100%" }}
+                                        muted={isMuted3} // Contrôle initial du son
+                                        autoPlay
+                                        loop
+
                                     />
                                     {/* Icône de mute/unmute */}
                                     <div
-                                    onClick={toggleMute}
-                                    style={{
-                                        position: "absolute",
-                                        bottom: "20px",
-                                        left: "50%",
-                                        transform: "translateX(-50%)",
-                                        cursor: "pointer",
-                                        color: "white",
-                                        backgroundColor: "rgba(0, 0, 0, 0.5)",
-                                        borderRadius: "50%",
-                                        padding: "10px",
-                                    }}
+                                        onClick={() => toggleMute(videoRef3, setIsMuted3)}
+                                        style={{
+                                            position: "absolute",
+                                            bottom: "20px",
+                                            left: "50%",
+                                            transform: "translateX(-50%)",
+                                            cursor: "pointer",
+                                            color: "white",
+                                            backgroundColor: "rgba(0, 0, 0, 0.5)",
+                                            borderRadius: "50%",
+                                            padding: "10px",
+                                        }}
                                     >
-                                    {isMuted ? (
-                                        <i className="bi bi-volume-mute-fill" style={{ fontSize: "24px" }}></i>
-                                    ) : (
-                                        <i className="bi bi-volume-up-fill" style={{ fontSize: "24px" }}></i>
-                                    )}
+                                        {isMuted3 ? (
+                                            <i className="bi bi-volume-mute-fill" style={{ fontSize: "24px" }}></i>
+                                        ) : (
+                                            <i className="bi bi-volume-up-fill" style={{ fontSize: "24px" }}></i>
+                                        )}
 
-                                </div>
+                                    </div>
                                 </div>
 
 
@@ -219,9 +283,9 @@ const Projects = () => {
 
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3 students</span>
+                                <span className="badge bg-secondary">Team of 3</span>
                                 <span className="badge bg-secondary">2 weeks</span>
-                                <span className="badge bg-secondary">Unreal engine (C++)</span>
+                                <span className="badge bg-secondary">Unreal engine</span>
                             </div>
                             <p className="text-muted mt-3">This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.</p>
                             <p className="text-muted mt-3">I worked on the movements of the players, on the UI elements and on the designs of the game.</p>
@@ -270,7 +334,7 @@ const Projects = () => {
                             <div className="d-flex flex-wrap justify-content-center gap-3">
                                 <span className="badge bg-secondary">Solo</span>
                                 <span className="badge bg-secondary">2 weeks</span>
-                                <span className="badge bg-secondary">Unreal engine (Blueprint)</span>
+                                <span className="badge bg-secondary">Unreal engine</span>
                             </div>
                             <p className="text-muted mt-3">
                                 My first-ever video game with Unreal Engine was a brick breaker game.
@@ -296,7 +360,7 @@ const Projects = () => {
 
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3 students</span>
+                                <span className="badge bg-secondary">Team of 3</span>
                                 <span className="badge bg-secondary">3 weeks</span>
                                 <span className="badge bg-secondary">Python (tkinter, scikit-learn)</span>
                             </div>
@@ -306,7 +370,11 @@ const Projects = () => {
                             <p className='text-muted'>
                                 I worked on the user interface, as well as including the model to the project.
                             </p>
-                            <a href="https://github.com/Hel88/SignLanguageAlphabetRecognition">Github page</a>
+                            <a href="https://github.com/Hel88/SignLanguageAlphabetRecognition" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-link"></i> Github page</a>
+                        
+
+                            
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
 
@@ -328,7 +396,7 @@ const Projects = () => {
                         </div>
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3 students</span>
+                                <span className="badge bg-secondary">Team of 3</span>
                                 <span className="badge bg-secondary">1 week</span>
                                 <span className="badge bg-secondary">Java</span>
                             </div>
@@ -339,7 +407,8 @@ const Projects = () => {
                             <p className='text-muted'>
                                 One of the challenges of this project was analyzing the extensive data provided, originating from five different sources, to identify the relevant information and establish meaningful connections between them.
                             </p>
-                            <a href="https://github.com/TheoHorn/gmd_project">Github page</a>
+                            <a href="https://github.com/TheoHorn/gmd_project"className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-link"></i> Github page</a>
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
                     </div>
@@ -383,7 +452,8 @@ const Projects = () => {
                                 It was done in 5 days, during a coding week challenge organized by Telecom Nancy.
 
                             </p>
-                            <a href='https://github.com/Hel88/Codingweek2024'>Github page</a>
+                            <a href='https://github.com/Hel88/Codingweek2024'className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-link"></i> Github page</a>
                         </div>
                         <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
                     </div>
