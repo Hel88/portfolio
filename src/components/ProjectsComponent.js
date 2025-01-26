@@ -1,7 +1,17 @@
 'use client';
 import Image from "next/image";
+import React, { useRef, useState } from "react";
 
 const Projects = () => {
+    const videoRef = useRef(null); // Référence à la vidéo
+  const [isMuted, setIsMuted] = useState(true); // État pour le son
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted; // Inverse l'attribut muted
+      setIsMuted(videoRef.current.muted); // Met à jour l'état
+    }
+  };
     return (
         <div>
             <div className="text-center py-3">
@@ -156,7 +166,39 @@ const Projects = () => {
                                     <img className="card-img-top" src="/bomberman.png" alt="Bomberman image" style={{ width: "100%" }} />
                                 </div>
                                 <div className="carousel-item">
-                                    <video className="card-img-top" src="/bomberman_gameplay.mp4" alt="bomberman video" style={{ width: "100%" }} muted autoPlay loop />
+                                <video
+                                    ref={videoRef}
+                                    className="card-img-top"
+                                    src="/bomberman_prise1.mp4"
+                                    alt="Bomberman video"
+                                    style={{ width: "100%" }}
+                                    muted={isMuted} // Contrôle initial du son
+                                    autoPlay
+                                    loop
+                                    
+                                    />
+                                    {/* Icône de mute/unmute */}
+                                    <div
+                                    onClick={toggleMute}
+                                    style={{
+                                        position: "absolute",
+                                        bottom: "20px",
+                                        left: "50%",
+                                        transform: "translateX(-50%)",
+                                        cursor: "pointer",
+                                        color: "white",
+                                        backgroundColor: "rgba(0, 0, 0, 0.5)",
+                                        borderRadius: "50%",
+                                        padding: "10px",
+                                    }}
+                                    >
+                                    {isMuted ? (
+                                        <i className="bi bi-volume-mute-fill" style={{ fontSize: "24px" }}></i>
+                                    ) : (
+                                        <i className="bi bi-volume-up-fill" style={{ fontSize: "24px" }}></i>
+                                    )}
+
+                                </div>
                                 </div>
 
 
