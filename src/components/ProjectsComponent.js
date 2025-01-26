@@ -8,7 +8,70 @@ const Projects = () => {
                 <h2 className="my-3 pt-3">Projects</h2>
             </div>
 
+
+            
+
             <div className="row row-cols-1 row-cols-md-2 g-4">
+
+
+                {/*Lift To Heaven */}
+
+                <div className="col">
+                    <div className="card h-100">
+                        <div className="card-header">
+                        <h3>Lift To Heaven</h3>
+                        Code game jam 2025
+                        </div>
+
+                        <div id="liftToHeaven" className="carousel slide">
+                            <div className="carousel-indicators">
+                                <button type="button" data-bs-target="#liftToHeaven" data-bs-slide-to="0" className="active"></button>
+                                <button type="button" data-bs-target="#liftToHeaven" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#liftToHeaven" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#liftToHeaven" data-bs-slide-to="3"></button>
+
+                            </div>
+
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img className="card-img-top" src="/liftToHeaven1.png" alt="liftToHeaven image" style={{ width: "100%" }} />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="card-img-top" src="/liftToHeaven2.png" alt="liftToHeaven image" style={{ width: "100%" }} />
+                                </div>
+                                <div className="carousel-item">
+                                    <video className="card-img-top" src="/liftToHeaven3.mp4" alt="liftToHeaven video" style={{ width: "100%" }} muted autoPlay loop />
+                                </div>
+                                <div className="carousel-item">
+                                    <video className="card-img-top" src="/liftToHeaven4.mp4" alt="liftToHeaven video" style={{ width: "100%" }} muted autoPlay loop />
+                                </div>
+
+
+                                <button className="carousel-control-prev" type="button" data-bs-target="#liftToHeaven" data-bs-slide="prev">
+                                    <span className="carousel-control-prev-icon"></span>
+                                </button>
+                                <button className="carousel-control-next" type="button" data-bs-target="#liftToHeaven" data-bs-slide="next">
+                                    <span className="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                        
+                        <div className="card-body">
+                        <div className="d-flex flex-wrap justify-content-center gap-3">
+                            <span className="badge bg-secondary">Team of 3</span>
+                            <span className="badge bg-secondary">30 hours</span>
+                            <span className="badge bg-secondary">Unreal engine</span>
+                        </div>
+                        <p className="text-muted mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. He/she has to find them in boxes, under hats or rugs, to increase the volume of the music.</p>
+                        <p className="text-muted mt-3">The theme of the game jam was "Melodie à l'infini" (melody to infinity).</p>
+                        <a href='https://kiribaton.itch.io/lifttoheaven'>Itch.io page</a>                  
+                        </div>
+                        <div className="card-footer text-muted text-center fw-lighter">Game jam</div>
+                    </div>
+                    </div> 
 
                 {/* Frogy Frog */}
                 <div className="col">
