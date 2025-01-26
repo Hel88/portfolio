@@ -126,13 +126,13 @@ const Projects = () => {
 
 
 
-                        <div className="card-body">
+                        <div className="card-body bg-custom-1">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
                                 <span className="badge bg-secondary">Team of 3</span>
                                 <span className="badge bg-secondary">30 hours (game jam)</span>
                                 <span className="badge bg-secondary">Unreal engine</span>
                             </div>
-                            <p className="text-muted mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. He/she has to find them in boxes, under hats or rugs, in order to increase the volume of the music.</p>
+                            <p className="text-muted mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.</p>
                             <p className="text-muted mt-3"> This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was "Mélodie à l'infini" (melody to infinity).</p>
 
                             

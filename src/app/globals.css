@@ -1,7 +1,8 @@
 
 :root{
   --blue:#2e445e;
-  --gray:#e8e8e8;
+  --light-gray:#e8e8e8;
+  --gray:#9c9c9c;
 
 
   --turquoise: #bfe0e4;
@@ -16,7 +17,7 @@
 
 main {
   color: var(--blue);
-  background: var(--gray);
+  background: var(--light-gray);
   font-family: var(--font-jlato);
 }
 
@@ -36,10 +37,8 @@ h3{
 }
 
 
-
-
 .blue-paragraph{
-  color: var(--gray);
+  color: var(--light-gray);
   background: var(--blue);
   font-family: var(--font-jlato);
 
