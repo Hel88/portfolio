@@ -2,7 +2,9 @@
 :root{
   --blue:#2e445e;
   --light-gray:#e8e8e8;
-  --gray:#9c9c9c;
+
+  --bg-color:#e5e5e5;
+  
 
 
   --turquoise: #bfe0e4;
@@ -17,7 +19,7 @@
 
 main {
   color: var(--blue);
-  background: var(--light-gray);
+  background: var(--bg-color);
   font-family: var(--font-jlato);
 }
 
@@ -33,7 +35,8 @@ h3{
   font-family: var(--font-jet-brain-mono);
   font-weight: 400 !important;
   font-size:x-large !important;
-  color: #585858 !important;
+  color: var(--blue) !important;
+
 }
 
 
@@ -42,6 +45,51 @@ h3{
   background: var(--blue);
   font-family: var(--font-jlato);
 
+}
+
+.card-img-top{
+  border-radius: 0% !important;
+}
+
+.card{
+  border-width : 0 !important;
+  border-radius: 2% !important;
+  background-color: #ffffffe6 !important;
+}
+
+
+.card-body, .card-header, .card-img-top{
+  background-color: #ffffff00 !important;
+  color:#222222 !important;
+}
+
+.bg-education-cards{
+  background-color: #ffffff56 !important;
+}
+
+.accordion{
+  background-color: #00000000 !important;
+  max-width: 500px !important;
+}
+
+.accordion-body, .accordion-button{
+  background-color: #ebebebeb !important;
+}
+
+.bg-custom-orange{
+  background-color: #ea8b27c1 !important;
+}
+
+.bg-custom-green{
+  background-color: #58a826c1 !important;
+}
+
+.bg-custom-red{
+  background-color: #b33e17c1 !important;
+}
+
+.bg-custom-blue{
+  background-color: #1b6d9ac1 !important;
 }
 
 nav{

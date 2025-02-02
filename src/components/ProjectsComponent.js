@@ -37,8 +37,12 @@ const Projects = () => {
                 <div className="col">
                     <div className="card h-100">
                         <div className="card-header">
-                            <h3>Lift To Heaven</h3>
-                            Code game jam 2025
+                            <div className="row">
+
+                            <h3>Lift To Heaven <i className="bi bi-award"></i></h3>
+                            
+                            </div>
+                            Code game jam 2025 - 1st place
                         </div>
 
                         <div id="liftToHeaven" className="carousel slide">
@@ -126,14 +130,16 @@ const Projects = () => {
 
 
 
-                        <div className="card-body bg-custom-1">
+                        <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3</span>
-                                <span className="badge bg-secondary">30 hours (game jam)</span>
-                                <span className="badge bg-secondary">Unreal engine</span>
+                                <span className="badge bg-custom-orange">Team of 3</span>
+                                <span className="badge bg-custom-orange">30 hours (game jam)</span>
+                                <span className="badge bg-custom-orange">Unreal engine</span>
                             </div>
-                            <p className="text-muted mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.</p>
-                            <p className="text-muted mt-3"> This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was "Mélodie à l'infini" (melody to infinity).</p>
+                            <p className=" mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.</p>
+                            <p className=" mt-3"> This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was "Mélodie à l'infini" (melody to infinity).
+                                It won the <b>1st place</b> <i className="bi bi-award"></i>
+                            </p>
 
                             
                             <a href="https://kiribaton.itch.io/lifttoheaven" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
@@ -141,7 +147,7 @@ const Projects = () => {
                         </a>
                         
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">Game jam project</div>
+                        <div className="card-footer  text-center fw-lighter">Game jam project</div>
                     </div>
                 </div>
 
@@ -190,14 +196,14 @@ const Projects = () => {
 
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3</span>
-                                <span className="badge bg-secondary">5 weeks</span>
-                                <span className="badge bg-secondary">Unreal engine</span>
+                                <span className="badge bg-custom-green">Team of 3</span>
+                                <span className="badge bg-custom-green">5 weeks</span>
+                                <span className="badge bg-custom-green">Unreal engine</span>
                             </div>
-                            <p className="text-muted mt-3">
+                            <p className=" mt-3">
                                 In this single-player game, the user controls a small frog which has to escape the kitchen using its tongue as a grappling hook.
                             </p>
-                            <p className="text-muted">
+                            <p className="">
                                 I worked on the grappling hook mechanism, along with the movements of the frog, and setting the animations from the asset pack.
                             </p>
                             <a href="https://mathis-ollier.itch.io/frogyfrog" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
@@ -205,7 +211,7 @@ const Projects = () => {
                         </a>
 
                        </div>
-                        <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
+                        <div className="card-footer  text-center fw-lighter">UQAC project</div>
 
 
                     </div>
@@ -285,15 +291,15 @@ const Projects = () => {
 
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Team of 3</span>
-                                <span className="badge bg-secondary">2 weeks</span>
-                                <span className="badge bg-secondary">Unreal engine</span>
+                                <span className="badge bg-custom-red">Team of 3</span>
+                                <span className="badge bg-custom-red">2 weeks</span>
+                                <span className="badge bg-custom-red">Unreal engine</span>
                             </div>
-                            <p className="text-muted mt-3">This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.</p>
-                            <p className="text-muted mt-3">I worked on the movements of the players, on the UI elements and on the designs of the game.</p>
+                            <p className=" mt-3">This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.</p>
+                            <p className=" mt-3">I worked on the movements of the players, on the UI elements and on the designs of the game.</p>
 
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
+                        <div className="card-footer  text-center fw-lighter">UQAC project</div>
 
                     </div>
                 </div>
@@ -334,15 +340,15 @@ const Projects = () => {
 
                         <div className="card-body">
                             <div className="d-flex flex-wrap justify-content-center gap-3">
-                                <span className="badge bg-secondary">Solo</span>
-                                <span className="badge bg-secondary">2 weeks</span>
-                                <span className="badge bg-secondary">Unreal engine</span>
+                                <span className="badge bg-custom-blue">Solo</span>
+                                <span className="badge bg-custom-blue">2 weeks</span>
+                                <span className="badge bg-custom-blue">Unreal engine</span>
                             </div>
-                            <p className="text-muted mt-3">
-                                My first-ever video game with Unreal Engine was a brick breaker game.
+                            <p className=" mt-3">
+                                My first video game with Unreal Engine was a brick breaker game.
                             </p>
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
+                        <div className="card-footer  text-center fw-lighter">UQAC project</div>
 
 
                     </div>
@@ -366,10 +372,10 @@ const Projects = () => {
                                 <span className="badge bg-secondary">3 weeks</span>
                                 <span className="badge bg-secondary">Python (tkinter, scikit-learn)</span>
                             </div>
-                            <p className='text-muted'>
+                            <p className=''>
                                 An application to learn the american sign language alphabet, as part of a machine learning course. We worked with a dataset of images from Kaggle, extracted their characteristics and trained a random forest classifier.
                             </p>
-                            <p className='text-muted'>
+                            <p className=''>
                                 I worked on the user interface, as well as including the model to the project.
                             </p>
                             <a href="https://github.com/Hel88/SignLanguageAlphabetRecognition" className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
@@ -378,7 +384,7 @@ const Projects = () => {
 
                             
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">UQAC project</div>
+                        <div className="card-footer  text-center fw-lighter">UQAC project</div>
 
                     </div>
                 </div>
@@ -402,17 +408,17 @@ const Projects = () => {
                                 <span className="badge bg-secondary">1 week</span>
                                 <span className="badge bg-secondary">Java</span>
                             </div>
-                            <p className='text-muted'>
+                            <p className=''>
 
                                 This project is an interactive graphical interface designed to help users identify potential diseases based on reported symptoms or side effects. The interface queries various data sources, such as medical databases, indexed files and text documents, based on the entries of the user.
                             </p>
-                            <p className='text-muted'>
+                            <p className=''>
                                 One of the challenges of this project was analyzing the extensive data provided, originating from five different sources, to identify the relevant information and establish meaningful connections between them.
                             </p>
                             <a href="https://github.com/TheoHorn/gmd_project"className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-link"></i> Github page</a>
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
+                        <div className="card-footer  text-center fw-lighter">Telecom Nancy project</div>
                     </div>
                 </div>
 
@@ -428,13 +434,13 @@ const Projects = () => {
                                 <span className="badge bg-secondary">1 semester</span>
                                 <span className="badge bg-secondary">Python (mediapipe)</span>
                             </div>
-                            <p className="text-muted mt-3">We worked on the early phases of a project with a research laboratory.
+                            <p className=" mt-3">We worked on the early phases of a project with a research laboratory.
                                 This project is a serious game for physical reactivation aimed at elderly individuals.
                                 The goal was to detect body angles with a webcam, as accurately as possible with a minimalist installation.
                                 We conducted a state-of-the-art review of the libraries in use and tested various methods to evaluate their effectiveness.</p>
 
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
+                        <div className="card-footer  text-center fw-lighter">Telecom Nancy project</div>
                     </div>
                 </div>
 
@@ -450,14 +456,14 @@ const Projects = () => {
                                 <span className="badge bg-secondary">5 days (coding week)</span>
                                 <span className="badge bg-secondary">Java (Java FX)</span>
                             </div>
-                            <p className="text-muted mt-3">DirectDealing is a circular economy application that allows people to lend/borrow equipment (lawnmower, jackhammer, vegetable peeler, etc.) and/or offer/request services (fixing a water leak, piano lessons, moving assistance, etc.).
+                            <p className=" mt-3">DirectDealing is a circular economy application that allows people to lend/borrow equipment (lawnmower, jackhammer, vegetable peeler, etc.) and/or offer/request services (fixing a water leak, piano lessons, moving assistance, etc.).
                                 It was done in 5 days, during a coding week challenge organized by Telecom Nancy.
 
                             </p>
                             <a href='https://github.com/Hel88/Codingweek2024'className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-link"></i> Github page</a>
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
+                        <div className="card-footer  text-center fw-lighter">Telecom Nancy project</div>
                     </div>
                 </div>
 
@@ -474,11 +480,11 @@ const Projects = () => {
                                 <span className="badge bg-secondary">1 semester</span>
                                 <span className="badge bg-secondary">Python/Flask </span>
                             </div>
-                            <p className="text-muted mt-3"><em>Le bonheur est dans le potager</em> is a web application that allows connected users to join a community garden, to own a parcell and to add plants in it.
+                            <p className=" mt-3"><em>Le bonheur est dans le potager</em> is a web application that allows connected users to join a community garden, to own a parcell and to add plants in it.
                                 An algorithm gives advices on which plants go well together, and suggests adequate placement in the parcell.
                             </p>
                         </div>
-                        <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
+                        <div className="card-footer  text-center fw-lighter">Telecom Nancy project</div>
                     </div>
                 </div>
 
@@ -500,10 +506,10 @@ const Projects = () => {
                     <span className="badge bg-secondary">2 weeks</span>
                     <span className="badge bg-secondary">Unreal engine (Blueprint)</span>
                   </div>
-                  <p className="text-muted mt-3"> blabla</p>
+                  <p className=" mt-3"> blabla</p>
                  <a href='#'>Github page</a>                  
                 </div>
-                <div className="card-footer text-muted text-center fw-lighter">Telecom Nancy project</div>
+                <div className="card-footer  text-center fw-lighter">Telecom Nancy project</div>
               </div>
             </div> 
             */}
