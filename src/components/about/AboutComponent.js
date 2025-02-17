@@ -1,23 +1,22 @@
 'use client';
 import Image from "next/image";
+import about from "./about.json"
+import ReactMarkdown from "react-markdown";
 
-const About = () => {
+
+const About =  () => {
+    
     return (
 
         <div className='blue-paragraph min-vh-100 d-flex flex-column justify-content-center pt-5'>
             <div className='p-3 p-md-5 col-10 col-md-8 mt-4 mx-auto'>
-                <h2 id="title-welcome">Welcome!</h2>
-
+                <h2 id="title-welcome">{about.sectionName}</h2>
+                
                 <div className="lead p-3 p-md-5">
-                    <p> Hi and welcome on my portfolio! </p>
-                    <p>I am <strong>Héléna Barbillon</strong>, a french computer science student.</p>
-
-                    <p>I am currently doing a dual degree in video game development at UQAC (Canada), and computer science at Telecom Nancy (France).</p>
-
-                    <p>I am especially interested in <u>game development</u>, but also in data science and machine learning. I am eager to learn new skills, and most of all to create meaningful user experiences.</p>
-
-                    <p>You will find here some of the projects I worked on, along with information about me. Feel free to reach out!</p>
-
+                    {about.description.map((paragraph, index) =>(
+                        <ReactMarkdown key={index}>{paragraph}</ReactMarkdown>
+                    ))}
+                    
                     <br></br>
 
                     <p>
@@ -28,7 +27,7 @@ const About = () => {
                             className="btn btn-outline-light "
                             role="button"
                         >
-                            <i className="bi bi-file-earmark-person"></i> French resume
+                            <i className="bi bi-file-earmark-person"></i> {about.frenchResume}
                         </a>
                     </p>
                     <br></br>

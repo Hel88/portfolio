@@ -1,9 +1,9 @@
 import Navigation from '../components/Navigation';
 import Education from '../components/EducationComponent';
-import Projects from '../components/ProjectsComponent';
+import Projects from '../components/projects/ProjectsComponent';
 import Skills from '../components/SkillsComponent';
 import Contact from '../components/ContactComponent';
-import About from '../components/AboutComponent';
+import About from '../components/about/AboutComponent';
 
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
