@@ -134,11 +134,11 @@ const Projects = () => {
                             <div className="d-flex flex-wrap justify-content-center gap-3">
                                 <span className="badge bg-custom-orange">Team of 3</span>
                                 <span className="badge bg-custom-orange">30 hours (game jam)</span>
-                                <span className="badge bg-custom-orange">Unreal engine</span>
+                                <span className="badge bg-custom-orange">Unreal engine (Blueprint)</span>
                             </div>
                             <p className=" mt-3"> In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.</p>
                             <p className=" mt-3"> This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was "Mélodie à l'infini" (melody to infinity).
-                                It won the <b>1st place</b> <i className="bi bi-award"></i>
+                                It won the <b>1st place</b> <i className="bi bi-award"></i>, out of 68 teams.
                             </p>
 
                             
@@ -198,7 +198,7 @@ const Projects = () => {
                             <div className="d-flex flex-wrap justify-content-center gap-3">
                                 <span className="badge bg-custom-green">Team of 3</span>
                                 <span className="badge bg-custom-green">5 weeks</span>
-                                <span className="badge bg-custom-green">Unreal engine</span>
+                                <span className="badge bg-custom-green">Unreal engine (C++, Blueprint)</span>
                             </div>
                             <p className=" mt-3">
                                 In this single-player game, the user controls a small frog which has to escape the kitchen using its tongue as a grappling hook.
@@ -293,7 +293,7 @@ const Projects = () => {
                             <div className="d-flex flex-wrap justify-content-center gap-3">
                                 <span className="badge bg-custom-red">Team of 3</span>
                                 <span className="badge bg-custom-red">2 weeks</span>
-                                <span className="badge bg-custom-red">Unreal engine</span>
+                                <span className="badge bg-custom-red">Unreal engine (C++, Blueprint)</span>
                             </div>
                             <p className=" mt-3">This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.</p>
                             <p className=" mt-3">I worked on the movements of the players, on the UI elements and on the designs of the game.</p>
@@ -342,7 +342,7 @@ const Projects = () => {
                             <div className="d-flex flex-wrap justify-content-center gap-3">
                                 <span className="badge bg-custom-blue">Solo</span>
                                 <span className="badge bg-custom-blue">2 weeks</span>
-                                <span className="badge bg-custom-blue">Unreal engine</span>
+                                <span className="badge bg-custom-blue">Unreal engine (Blueprint)</span>
                             </div>
                             <p className=" mt-3">
                                 My first video game with Unreal Engine was a brick breaker game.
