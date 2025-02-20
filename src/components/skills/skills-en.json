@@ -1,0 +1,60 @@
+{
+    "sectionName": "Skills",
+    "subSectionLanguage" : "Languages",
+    "linguisticSkills" : ["French (native)", "English (proficient)", "German (beginner)"],
+    "subSectionOther" : "Others",
+    "otherSkills" : ["Project management (MOOC online course)", "Drawing (Clip Studio Paint, Inkscape)", "Basic 3D modeling (Blender)"],
+    "subSectionTechnical" : "Technical",
+    "technicalSkills": [
+        {
+            "id": "unreal",
+            "title": "Unreal Engine",
+            "description": "Used for video game projects at UQAC. Both Blueprint and C++."
+        },
+        {
+            "id": "unity",
+            "title": "Unity",
+            "description": "Used in the virtual reality course at UQAC."
+        },
+        {
+            "id": "python",
+            "title": "Python",
+            "description": "Machine learning projects with scikit-learn, web interfaces with Flask, interfaces with Tkinter."
+        },
+        {
+            "id": "cpp",
+            "title": "C++",
+            "description": "Used in math and physics courses for video games (openframework), as well as in the game engine course."
+        },
+        {
+            "id": "java",
+            "title": "Java",
+            "description": "OOP (Object-Oriented Programming) course at Telecom Nancy, GUI development with JavaFX for three projects and during an internship."
+        },
+        {
+            "id": "c",
+            "title": "C",
+            "description": "Data structures course at Telecom Nancy."
+        },
+        {
+            "id": "git",
+            "title": "Git",
+            "description": "Used for all projects at Telecom Nancy."
+        },
+        {
+            "id": "perforce",
+            "title": "Perforce",
+            "description": "Used for all video game projects at UQAC."
+        },
+        {
+            "id": "html",
+            "title": "HTML/CSS",
+            "description": "Used in all web interface projects."
+        },
+        {
+            "id": "postgresql",
+            "title": "PostgreSQL",
+            "description": "Used in courses at Telecom Nancy."
+        }
+    ]
+}

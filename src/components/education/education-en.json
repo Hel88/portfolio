@@ -1,0 +1,29 @@
+{
+    "sectionName" : "Education",
+    "uqacDescription" : "Dual degree in computer science with a focus on **video games**",
+    "courses" : "Courses",
+    "fallTrim" : "Fall 2024 trimester:",
+    "fallDescription" :  [
+        "Game development principles",
+        "Game engine principles",
+        "Mathematics and physics for video games",
+        "Machine learning"],
+    "winterTrim" : "Winter 2025 trimester:",
+    "winterDescription" : [
+        "Practical video game workshop 1",
+        "3D interaction and virtual reality",
+        "Mobile applications development",
+        "Deep learning"],
+    "summerTrim" : "Summer 2025 trimester (coming):",
+    "summerDescription" : [
+        "Practical video game workshop 2",
+        "..."
+    ],
+
+    "telecomDescription" : [
+        "Master's degree in computer science",
+        "Specialization in **data science** during the last semester"
+    ],
+    "prepaDescription" : "Preparatory class for engineering schools"
+
+}

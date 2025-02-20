@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Julius_Sans_One, Lato, JetBrains_Mono } from "next/f
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import BootstrapClient from '@/components/BootstrapClient.js';
+import { LanguageProvider } from "@/context/LanguageContext.js"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${julius_sans_one.variable} ${lato.variable} ${jetbrainmono.variable} `}>
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
         <BootstrapClient />
       </body>
     </html>

@@ -1,0 +1,170 @@
+
+    {   "sectionName": "Projects",
+        "projects":[
+
+        {   
+            "id": 1,
+            "title": "Lift to Heaven",
+            "award": true,
+            "subtitle" : "Code game jam 2025 - 1st place",
+            "carousel_content": [
+                {
+                    "type": "photo",
+                    "filename": "/liftToHeaven1.png"
+                },
+                {
+                    "type": "photo",
+                    "filename": "/liftToHeaven2.png"
+                },
+                {
+                    "type": "video",
+                    "filename": "/liftToHeaven3.mp4"
+                },
+                {
+                    "type": "video",
+                    "filename": "/liftToHeaven4.mp4"
+                }
+                
+            ],
+            "badges": ["Team of 3", "30 hours (game jam)", "Unreal engine (Blueprint)"],
+            "description": ["In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.",
+                            "This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was \"Mélodie à l'infini\" (melody to infinity). It won the **1st place**, out of 68 teams."],
+            "color" : "#ea8b27c1",
+            "link": "https://kiribaton.itch.io/lifttoheaven",
+            "linkType": "Itch.io page",
+            "projectType": "Game jam project"
+        },
+        {   
+            "id": 2,
+            "title": "Frogy Frog",
+            "subtitle" : "A plateformer game",
+            "carousel_content": [
+                {
+                    "type": "photo",
+                    "filename": "frog3.png"
+                },
+                {
+                    "type": "video",
+                    "filename": "frogyfrog_gameplay.mp4"
+                },
+                {
+                    "type": "photo",
+                    "filename": "frog2.png"
+                },
+                {
+                    "type": "photo",
+                    "filename": "frog4.png"
+                }
+            ],
+            "badges": ["Team of 3", "5 weeks", "Unreal engine (C++, Blueprint)"],
+            "description": ["In this single-player game, the user controls a small frog which has to escape the kitchen using its tongue as a grappling hook.",
+                "I worked on the grappling hook mechanism, along with the movements of the frog, and setting the animations from the asset pack."],
+            "color" : "#58a826c1",
+            "link": "https://mathis-ollier.itch.io/frogyfrog",
+            "linkType": "Itch.io page",
+            "projectType": "UQAC project"
+        },
+        {   
+            "id": 3,
+            "title": "Shroomboom",
+            "subtitle" : "Remaking of the bomberman game",
+            "carousel_content": [
+                {
+                    "type": "photo",
+                    "filename": "bomberman.png"
+                },
+                {
+                    "type": "video",
+                    "filename": "bomberman_prise1.mp4"
+                }
+            ],
+            "badges": ["Team of 3", "2 weeks", "Unreal engine (C++, Blueprint)"],
+            "description": ["This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.",
+                "I worked on the movements of the players, on the UI elements and on the designs of the game."],
+            "color" : "#b33e17c1",
+            "link": "https://mathis-ollier.itch.io/frogyfrog",
+            "linkType": "Itch.io page",
+            "projectType": "UQAC project"
+        },
+        {   
+            "id": 4,
+            "title": "Brick Breaker",
+            "subtitle" : "My first video game with Unreal",
+            "carousel_content": [
+                {
+                    "type": "photo",
+                    "filename": "brickbreaker.png"
+                },
+                {
+                    "type": "video",
+                    "filename": "brickbreaker_gameplay.mp4"
+                }
+            ],
+            "badges": ["Solo", "2 weeks", "Unreal engine (Blueprint)"],
+            "description": ["My first video game with Unreal Engine was a brick breaker game."],
+            "color" : "#1b6d9ac1",
+            "projectType": "UQAC project"
+        },
+        {   
+            "id": 5,
+            "title": "Sign language recognition",
+            "subtitle" : "Machine learning app",
+            "carousel_content": [
+                {
+                    "type": "photo",
+                    "filename": "signlanguage.png"
+                }
+            ],
+            "badges": ["Team of 3", "3 weeks", "Python (tkinter, scikit-learn)"],
+            "description": ["An application to learn the american sign language alphabet, as part of a machine learning course. We worked with a dataset of images from Kaggle, extracted their characteristics and trained a random forest classifier.",
+        "I worked on the user interface, as well as including the model to the project."],
+            "color" : "#1b6d9ac1",
+            "link": "https://github.com/Hel88/SignLanguageAlphabetRecognition",
+            "linkType": "Github page",
+            "projectType": "UQAC project"
+        },
+        {   
+            "id": 6,
+            "title": "Medical data integration system",
+            "subtitle" : "Project for the data masses course",
+            "badges": ["Team of 3", "1 week", "Java"],
+            "description": ["This project is an interactive graphical interface designed to help users identify potential diseases based on reported symptoms or side effects. The interface queries various data sources, such as medical databases, indexed files and text documents, based on the entries of the user.",
+        "One of the challenges of this project was analyzing the extensive data provided, originating from five different sources, to identify the relevant information and establish meaningful connections between them."],
+            "color" : "#6c757d",
+            "link": "https://github.com/TheoHorn/gmd_project",
+            "linkType": "Github page",
+            "projectType": "Telecom Nancy project"
+        },
+        {   
+            "id": 7,
+            "title": "Real time body landmarks detection with mediapipe",
+            "subtitle" : "Interdisciplinary Research Discovery Project",
+            "badges": ["Team of 2", "1 semester", "Python (mediapipe)"],
+            "description": ["We worked on the early phases of a project with a research laboratory. This project is a serious game for physical reactivation aimed at elderly individuals. The goal was to detect body angles with a webcam, as accurately as possible with a minimalist installation. We conducted a state-of-the-art review of the libraries in use and tested various methods to evaluate their effectiveness."],
+            "color" : "#6c757d",
+            "projectType": "Telecom Nancy project"
+        },
+        {   
+            "id": 8,
+            "title": "Direct Dealing",
+            "subtitle" : "An app for lending and borrowing material",
+            "badges": ["Team of 4", "5 days (coding week)", "Java (JavaFX)"],
+            "description": ["DirectDealing is a circular economy application that allows people to lend/borrow equipment (lawnmower, jackhammer, vegetable peeler, etc.) and/or offer/request services (fixing a water leak, piano lessons, moving assistance, etc.).",
+                "It was done in 5 days, during a coding week challenge organized by Telecom Nancy."],
+            "link": "https://github.com/Hel88/Codingweek2024",
+            "linkType": "Github page",
+            "color" : "#6c757d",
+            "projectType": "Telecom Nancy project"
+        },
+        {   
+            "id": 9,
+            "title": "Le bonheur est dans le potager",
+            "subtitle" : "Web application for managing community gardens",
+            "badges": ["Team of 4", "1 semester", "Python (Flask)"],
+            "description": ["*Le bonheur est dans le potager* is a web application that allows connected users to join a community garden, to own a parcell and to add plants in it. An algorithm gives advices on which plants go well together, and suggests adequate placement in the parcell.",
+                "It was done in 5 days, during a coding week challenge organized by Telecom Nancy."],
+            "color" : "#6c757d",
+            "projectType": "Telecom Nancy project"
+        }
+    ]
+}

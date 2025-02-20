@@ -1,14 +1,34 @@
 'use client';
 import Image from "next/image";
+import educationEn from "./education-en.json";
+import educationFr from "./education-fr.json";
+import ReactMarkdown from "react-markdown";
+import { useLanguage } from "@/context/LanguageContext";
+import { useEffect, useState } from "react";
+
+
 
 const Education = () => {
+
+    const {language, setLanguage} = useLanguage();
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+    setIsClient(true); // Attendre le chargement client
+    }, []);
+
+    if (!isClient) {
+    return null; // Évite l'erreur d'hydration mismatch
+    }
+
+    // Sélectionner le bon fichier JSON en fonction de la langue
+    const education = language === "fr" ? educationFr : educationEn;
+
     return (
-
-
 
         <div className="container py-3">
             <div className="text-center py-3">
-                <h2 className="my-3 pt-3">Education</h2>
+                <h2 className="my-3 pt-3">{education.sectionName}</h2>
             </div>
 
             {/* <div className="row justify-content-center">
@@ -127,8 +147,8 @@ const Education = () => {
                 </div>
                 <div className='col justify-content-center'>
                     <h5>UQAC - Université du Québec à Chicoutimi (Canada)</h5>
-                    <p>Dual degree in computer science with a focus on <strong>video games</strong></p>
-
+                    {/* <p>Dual degree in computer science with a focus on <strong>video games</strong></p> */}
+                    <ReactMarkdown>{education.uqacDescription}</ReactMarkdown>
 
                     <div className='accordion' id="ac1">
                         <div className='accordion-item'>
@@ -137,32 +157,33 @@ const Education = () => {
                                 data-bs-toggle="collapse" 
                                 data-bs-target="#flush-collapseOne1" 
                                 aria-controls="flush-collapseOne1">
-                                Courses
+                                {education.courses}
                             </button>
                             </h4>
                             <div id="flush-collapseOne1" className="accordion-collapse collapse" data-bs-parent="#ac1">
                                 <div className="accordion-body">
+                                    
 
-                                    Fall 2024 trimester:
+                                    {education.fallTrim}
                                     <ul>
-                                        <li>Game development principles</li>
-                                        <li>Game engine principles</li>
-                                        <li>Mathematics and physics for video games</li>
-                                        <li>Machine learning</li>
+                                        {education.fallDescription.map((des, index) => (
+                                            <li key={index}>{des}</li>
+                                        ))}
                                     </ul>
 
-                                    Winter 2025 trimester:
+                                    {education.winterTrim}
+
                                     <ul>
-                                        <li>Practical video game workshop 1</li>
-                                        <li>3D interaction and virtual reality</li>
-                                        <li>Mobile applications development</li>
-                                        <li>Deep learning</li>
+                                    {education.winterDescription.map((des, index) => (
+                                            <li key={index}>{des}</li>
+                                        ))}
                                     </ul>
 
-                                    Summer 2025 trimester (coming):
+                                    {education.summerTrim}
                                     <ul>
-                                        <li>Practical video game workshop 2</li>
-                                        <li>...</li>
+                                    {education.summerDescription.map((des, index) => (
+                                            <li key={index}>{des}</li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
@@ -185,10 +206,10 @@ const Education = () => {
 
                 <div className='col'>
                     <h5>Telecom Nancy (France)</h5>
-                    <p>Master's degree in computer science</p>
 
-                    <p>Specialization in <strong>data science</strong> during the last semester</p  >
-
+                {education.telecomDescription.map((des, index) => (
+                    <ReactMarkdown key={index}>{des}</ReactMarkdown>
+                ))}
                     {/* <div className='accordion' id="ac2">
                         <div className='accordion-item'>
                             <h4 className='accordion-header'>
@@ -222,7 +243,7 @@ const Education = () => {
 
                 <div className='col'>
                     <h5>La Prépa des INP Nancy (France)</h5>
-                    <p>Preparatory class for engineering schools</p>
+                    <p>{education.prepaDescription}</p>
 
                 </div>
             </div>

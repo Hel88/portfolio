@@ -1,10 +1,27 @@
 'use client';
 import Image from "next/image";
-import about from "./about.json"
+import aboutEn from "./about-en.json";
+import aboutFr from "./about-fr.json";
 import ReactMarkdown from "react-markdown";
+import { useLanguage } from "@/context/LanguageContext";
+import { useState, useEffect } from "react";
 
 
 const About =  () => {
+
+    const {language, setLanguage} = useLanguage();
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+    setIsClient(true); // Attendre le chargement client
+    }, []);
+
+    if (!isClient) {
+    return null; // Évite l'erreur d'hydration mismatch
+    }
+
+    // Sélectionner le bon fichier JSON en fonction de la langue
+    const about = language === "fr" ? aboutFr : aboutEn;
     
     return (
 

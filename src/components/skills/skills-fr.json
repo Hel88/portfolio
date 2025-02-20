@@ -1,0 +1,60 @@
+{
+    "sectionName": "Compétences",
+    "subSectionLanguage" : "Langues",
+    "linguisticSkills" : ["Français (natif)", "Anglais (C1)", "Allemand (A2)"],
+    "subSectionOther" : "Autres",
+    "otherSkills" : ["Gestion de projet (cours MOOC en ligne)", "Dessin (Clip Studio Paint, Inkscape)", "Modélisation 3D basique (Blender)"],
+    "subSectionTechnical" : "Techniques",
+    "technicalSkills": [
+        {
+            "id": "unreal",
+            "title": "Unreal Engine",
+            "description": "Utilisé dans les projets de jeux vidéo de l'UQAC, à la fois en Blueprint et C++."
+        },
+        {
+            "id": "unity",
+            "title": "Unity",
+            "description": "Utilisé dans un cours de réalité de virtuel à l'UQAC."
+        },
+        {
+            "id": "python",
+            "title": "Python",
+            "description": "Projets de machine learning avec la librairie scikit-learn, interfaces web avec Flask, interfaces avec Tkinter."
+        },
+        {
+            "id": "cpp",
+            "title": "C++",
+            "description": "Utilisé dans le cours de mathématiques et physiques pour le jeu vidéo de l'UQAC (openframework), ainsi que dans le cours de fondamentaux des moteurs de jeux."
+        },
+        {
+            "id": "java",
+            "title": "Java",
+            "description": "Utilisé lors de cours de programmation orientée objet à Telecom Nancy, interfaces réalisées avec JavaFX lors de plusieurs projets à Telecom Nancy et lors d'un stage."
+        },
+        {
+            "id": "c",
+            "title": "C",
+            "description": "Utilisé lors de cours de structure de données à Telecom Nancy."
+        },
+        {
+            "id": "git",
+            "title": "Git",
+            "description": "Utilisé pour tous les projets de Telecom Nancy, ainsi que certains de l'UQAC."
+        },
+        {
+            "id": "perforce",
+            "title": "Perforce",
+            "description": "Utilisé pour tous les projets de jeux vidéo de l'UQAC."
+        },
+        {
+            "id": "html",
+            "title": "HTML/CSS",
+            "description": "Utilisé lors de projets d'interfaces web."
+        },
+        {
+            "id": "postgresql",
+            "title": "PostgreSQL",
+            "description": "Utilisé lors de cours de bases de données de Telecom Nancy."
+        }
+    ]
+}

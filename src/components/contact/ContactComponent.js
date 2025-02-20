@@ -1,10 +1,26 @@
 'use client';
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
+import { useEffect, useState } from "react";
+
 
 const Contact = () => {
+    const {language, setLanguage} = useLanguage();
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+    setIsClient(true); // Attendre le chargement client
+    }, []);
+
+    if (!isClient) {
+    return null; // Évite l'erreur d'hydration mismatch
+    }
+
+    const title = language === "fr" ? "Liens" : "Links";
+    
     return (
         <div>
-            <h2 className="my-3 py-3 text-center">Links</h2>
+            <h2 className="my-3 py-3 text-center">{title}</h2>
 
             <div className="d-flex flex-wrap justify-content-center gap-3">
                 {/* LinkedIn Card */}

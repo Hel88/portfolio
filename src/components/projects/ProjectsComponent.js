@@ -1,34 +1,51 @@
 'use client';
 import Image from "next/image";
 import React, { useRef, useState, useEffect } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 import Project from "./Project";
+import projectsEn from "./projects-en.json";
+import projectsFr from "./projects-fr.json";
 
 const Projects = () => {
-    const [projects, setProjects] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+  //   const [projects, setProjects] = useState([]);
+  //   const [loading, setLoading] = useState(true);
+  //   const [error, setError] = useState(null);
+
+  //   useEffect(() => {
+  //       fetch("/api/projects")
+  //       .then((res) => {
+  //       if (!res.ok) {
+  //         throw new Error("Erreur de chargement des projets");
+  //       }
+  //       return res.json();
+  //     })
+  //     .then((data) => {
+  //       setProjects(data);
+  //       setLoading(false);
+  //     })
+  //     .catch((err) => {
+  //       setError(err.message);
+  //       setLoading(false);
+  //     });
+  // }, []);
+
+  // if (loading) return <p>Chargement des projets...</p>;
+  // if (error) return <p>Erreur : {error}</p>;
+
+    const {language, setLanguage} = useLanguage();
+    const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
-        fetch("/api/projects")
-        .then((res) => {
-        if (!res.ok) {
-          throw new Error("Erreur de chargement des projets");
-        }
-        return res.json();
-      })
-      .then((data) => {
-        setProjects(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, []);
+    setIsClient(true); // Attendre le chargement client
+    }, []);
 
-  if (loading) return <p>Chargement des projets...</p>;
-  if (error) return <p>Erreur : {error}</p>;
+    if (!isClient) {
+    return null; // Évite l'erreur d'hydration mismatch
+    }
 
+    // Sélectionner le bon fichier JSON en fonction de la langue
+    const projects = language === "fr" ? projectsFr : projectsEn;
+    
 
     return (
         <div>

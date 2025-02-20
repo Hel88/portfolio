@@ -1,8 +1,8 @@
-import Navigation from '../components/Navigation';
-import Education from '../components/EducationComponent';
+import Navigation from '../components/Navigation/Navigation';
+import Education from '../components/education/EducationComponent';
 import Projects from '../components/projects/ProjectsComponent';
-import Skills from '../components/SkillsComponent';
-import Contact from '../components/ContactComponent';
+import Skills from '../components/skills/SkillsComponent';
+import Contact from '../components/contact/ContactComponent';
 import About from '../components/about/AboutComponent';
 
 

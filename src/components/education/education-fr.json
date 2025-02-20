@@ -1,0 +1,29 @@
+{
+    "sectionName" : "Education",
+    "uqacDescription" : "Double diplôme en informatique cursus jeux vidéo",
+    "courses" : "Cours",
+    "fallTrim" : "Trimestre d'automne 2024:",
+    "fallDescription" :  [
+        "Conception et développement de jeux vidéo",
+        "Fondamentaux des moteurs de jeux",
+        "Mathématiques et physique pour le jeu vidéo",
+        "Apprentissage automatique"],
+    "winterTrim" : "Trimestre d'hiver 2025:",
+    "winterDescription" : [
+        "Atelier pratique jeux vidéo 1",
+        "Interaction 3D et réalité virtuelle",
+        "Programmation sur lateformes mobiles",
+        "Apprentissage profond"],
+    "summerTrim" : "Trimestre d'été 2025 (en cours):",
+    "summerDescription" : [
+        "Atelier pratique jeux vidéo 2",
+        "..."
+    ],
+
+    "telecomDescription" : [
+        "Diplôme d'ingénieur en informatique",
+        "Spécialisation en science des données pendant 1 semestre."
+    ],
+    "prepaDescription" : "Classe préparatoire aux écoles d'ingénieur"
+
+}
