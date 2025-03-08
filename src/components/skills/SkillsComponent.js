@@ -1,11 +1,12 @@
-'use client';
+"use client";
 import { useEffect } from "react";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import skillsEn from "./skills-en.json";
 import skillsFr from "./skills-fr.json";
 import { useLanguage } from "@/context/LanguageContext";
+import { Suspense } from "react";
 
-const Skills = () => {
+const SkillsContent = () => {
     const { language } = useLanguage();
     const skills = language === "fr" ? skillsFr : skillsEn;
     const techSkills = skills.technicalSkills;
@@ -14,11 +15,9 @@ const Skills = () => {
     const pathname = usePathname();
     const router = useRouter();
 
-    // Récupérer l'ID sélectionné dans l'URL
     const selectedSkillId = searchParams.get("skill") || techSkills[0]?.id;
     const selectedSkill = techSkills.find(skill => skill.id === selectedSkillId);
 
-    // Fonction pour changer l'URL et donc la sélection
     const selectSkill = (id) => {
         const newParams = new URLSearchParams(searchParams);
         newParams.set("skill", id);
@@ -50,7 +49,6 @@ const Skills = () => {
                     <div className="col-md-7 col-sm-12">
                         <h3 className="my-3 pt-3">{skills.subSectionTechnical}</h3>
 
-                        {/* Zone des boutons */}
                         <div className="d-flex flex-wrap gap-3 my-2">
                             {techSkills.map((skill) => (
                                 <button
@@ -63,7 +61,6 @@ const Skills = () => {
                             ))}
                         </div>
 
-                        {/* Zone d'affichage du contenu */}
                         {selectedSkill && (
                             <div className="mt-3">
                                 <div className="card">
@@ -79,6 +76,14 @@ const Skills = () => {
 
             <br />
         </div>
+    );
+};
+
+const Skills = () => {
+    return (
+        <Suspense fallback={<div>Chargement...</div>}>
+            <SkillsContent />
+        </Suspense>
     );
 };
 
