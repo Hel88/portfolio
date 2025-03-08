@@ -1,12 +1,47 @@
-
-    {   "sectionName": "Projets",
-        "projects":[
-
-        {   
+{
+    "sectionName": "Projets",
+    "projects": [
+        {
+            "id": 10,
+            "title": "Melty",
+            "subtitle": "Wonderjam édition hiver 2025",
+            "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/melty1.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/melty2.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/melty3.png"
+                    },
+                    {
+                        "type": "video",
+                        "filename": "/Melty.mp4"
+                    }                    
+                ],
+            "badges": [
+                "Equipe de 4",
+                "48 heures (game jam)",
+                "Unreal engine (Blueprint)"
+            ],
+            "description": [
+                "Le joueur incarne un glaçon qui cherche à rejoindre un bateau sur la plage avant de fondre. La carte est divisée en plusieurs zones de plus en plus chaudes, et le joueur doit récolter des flocons pour augmenter sa résistance à la chaleur à chaque nouvelle partie.",
+                "Ce jeu a été réalisée lors de la Wonderjam d'hiver 2025 organisée par l'AEMU-UQAC, propulsée par Ubisoft Saguenay. Le thème de l'édition était 'Frontières', et les styles que nous avons tirés au hasard sont 'collecteurs', 'rogue-lite' et 'quête'."
+            ],
+            "color": "#39ccbb",
+            "link": "https://kiribaton.itch.io/melty",
+            "linkType": "Itch.io page",
+            "projectType": "Game jam"
+        },
+        {
             "id": 1,
             "title": "Lift to Heaven",
             "award": true,
-            "subtitle" : "Code game jam 2025 - 1ère place",
+            "subtitle": "Code game jam 2025 - 1ère place",
             "carousel_content": [
                 {
                     "type": "photo",
@@ -24,20 +59,25 @@
                     "type": "video",
                     "filename": "/liftToHeaven4.mp4"
                 }
-                
             ],
-            "badges": ["Equipe de 3", "30 heures (game jam)", "Unreal engine (Blueprint)"],
-            "description": ["Dans *Lift to Heaven*, le joueur doit s'assurer que la musique de l'ascenceur continue en appuyant sur le bon bouton. Il doit les chercher dans des boîtes, sous un chapeau ou un tapis afin d'augmenter le volume de la musique et monter le plus haut possible.",
-                            "Ce jeu a été créé pour la Code Game Jam 2025 de l'IUT de Montpellier. Le thème était *Mélodie à l'infini*. Il a remporté la **1ʳᵉ place** parmi 68 équipes."],
-            "color" : "#ea8b27c1",
+            "badges": [
+                "Equipe de 3",
+                "30 heures (game jam)",
+                "Unreal engine (Blueprint)"
+            ],
+            "description": [
+                "Dans *Lift to Heaven*, le joueur doit s'assurer que la musique de l'ascenceur continue en appuyant sur le bon bouton. Il doit les chercher dans des boîtes qui se débloquent au fur et à mesure, sous un chapeau ou un tapis afin d'augmenter le volume de la musique et monter le plus haut possible.",
+                "Ce jeu a été créé pour la Code Game Jam 2025 de l'IUT de Montpellier. Le thème était *Mélodie à l'infini*. Il a remporté la **1ʳᵉ place** parmi 68 équipes."
+            ],
+            "color": "#ea8b27c1",
             "link": "https://kiribaton.itch.io/lifttoheaven",
-            "linkType": "Itch.io page",
-            "projectType": "Projet de game jam"
+            "linkType": "Page Itch.io",
+            "projectType": "Game jam"
         },
-        {   
+        {
             "id": 2,
             "title": "Frogy Frog",
-            "subtitle" : "Un plateformer amphibien",
+            "subtitle": "Un plateformer amphibien",
             "carousel_content": [
                 {
                     "type": "photo",
@@ -56,18 +96,24 @@
                     "filename": "frog4.png"
                 }
             ],
-            "badges": ["Equipe de 3", "5 semaines", "Unreal engine (C++, Blueprint)"],
-            "description": ["Dans ce jeu solo, le joueur contrôle une petite grenouille qui doit s'échapper de la cuisine pour ne pas passer à la casserole, en utilisant sa langue comme un grappin.",
-                 "J'ai travaillé sur le mécanisme du grappin, ainsi que sur les déplacements de la grenouille et l'intégration des animations du pack d'assets."],
-            "color" : "#58a826c1",
+            "badges": [
+                "Equipe de 3",
+                "5 semaines",
+                "Unreal engine (C++, Blueprint)"
+            ],
+            "description": [
+                "Dans ce jeu solo, le joueur contrôle une petite grenouille qui doit s'échapper de la cuisine pour ne pas passer à la casserole, en utilisant sa langue comme un grappin.",
+                "J'ai travaillé sur le mécanisme du grappin, ainsi que sur les déplacements de la grenouille et l'intégration des animations du pack d'assets."
+            ],
+            "color": "#58a826c1",
             "link": "https://mathis-ollier.itch.io/frogyfrog",
-            "linkType": "Itch.io page",
+            "linkType": "Page Itch.io",
             "projectType": "Projet UQAC"
         },
-        {   
+        {
             "id": 3,
             "title": "Shroomboom",
-            "subtitle" : "Remaking of the bomberman game",
+            "subtitle": "Remaking of the bomberman game",
             "carousel_content": [
                 {
                     "type": "photo",
@@ -78,18 +124,24 @@
                     "filename": "bomberman_prise1.mp4"
                 }
             ],
-            "badges": ["Equipe de 3", "2 semaines", "Unreal engine (C++, Blueprint)"],
-            "description": ["Ce projet est basé sur le célèbre jeu Bomberman. C'est un jeu compétitif pour 2 à 4 joueurs, où les joueurs (des champignons ici) doivent éliminer les autres en posant des bombes. Cette version inclut deux types de bonus.",
-            "J'ai travaillé sur les déplacements des joueurs, les éléments de l'interface utilisateur et le design du jeu."],
-            "color" : "#b33e17c1",
+            "badges": [
+                "Equipe de 3",
+                "2 semaines",
+                "Unreal engine (C++, Blueprint)"
+            ],
+            "description": [
+                "Ce projet est basé sur le célèbre jeu Bomberman. C'est un jeu compétitif pour 2 à 4 joueurs, où les joueurs (des champignons ici) doivent éliminer les autres en posant des bombes. Cette version inclut deux types de bonus.",
+                "J'ai travaillé sur les déplacements des joueurs, les éléments de l'interface utilisateur et le design du jeu."
+            ],
+            "color": "#b33e17c1",
             "link": "https://mathis-ollier.itch.io/frogyfrog",
-            "linkType": "Itch.io page",
+            "linkType": "Page Itch.io",
             "projectType": "Projet UQAC"
         },
-        {   
+        {
             "id": 4,
             "title": "Casse-briques",
-            "subtitle" : "Mon premier jeu avec Unreal Engine",
+            "subtitle": "Mon premier jeu avec Unreal Engine",
             "carousel_content": [
                 {
                     "type": "photo",
@@ -100,70 +152,106 @@
                     "filename": "brickbreaker_gameplay.mp4"
                 }
             ],
-            "badges": ["Solo", "2 semaines", "Unreal engine (Blueprint)"],
-            "description": ["Mon premier jeu avec Unreal était un casse-briques."],
-            "color" : "#1b6d9ac1",
+            "badges": [
+                "Solo",
+                "2 semaines",
+                "Unreal engine (Blueprint)"
+            ],
+            "description": [
+                "Mon premier jeu avec Unreal était un casse-briques."
+            ],
+            "color": "#1b6d9ac1",
             "projectType": "Projet UQAC"
         },
-        {   
+        {
             "id": 5,
             "title": "Reconnaissance de la langue des signes américaine",
-            "subtitle" : "Application pour un cours de machine learning",
+            "subtitle": "Application pour un cours de machine learning",
             "carousel_content": [
                 {
                     "type": "photo",
                     "filename": "signlanguage.png"
                 }
             ],
-            "badges": ["Equipe de 3", "3 semaines", "Python (tkinter, scikit-learn)"],
-            "description": ["Application permettant d'apprendre l'alphabet de la langue des signes américaine, réalisé dans le cadre d'un cours de mcahine learning. Nous avons utilisé un jeu de données d'images provenant de Kaggle, extrait leurs caractéristiques et entraîné un classificateur à forêts aléatoires.",
-        "J'ai travaillé sur l'interface utilisateur ainsi que sur l'intégration du modèle dans le projet."],
-            "color" : "#1b6d9ac1",
+            "badges": [
+                "Equipe de 3",
+                "3 semaines",
+                "Python (tkinter, scikit-learn)"
+            ],
+            "description": [
+                "Cette application permet d'apprendre l'alphabet de la langue des signes américaine, et a été réalisée dans le cadre d'un cours de machine learning. Nous avons utilisé un jeu de données d'images provenant de Kaggle, extrait leurs caractéristiques et entraîné un classificateur à forêts aléatoires.",
+                "J'ai travaillé sur l'interface utilisateur ainsi que sur l'intégration du modèle dans le projet."
+            ],
+            "color": "#1b6d9ac1",
             "link": "https://github.com/Hel88/SignLanguageAlphabetRecognition",
-            "linkType": "page github",
+            "linkType": "Page Github",
             "projectType": "Projet UQAC"
         },
-        {   
+        {
             "id": 6,
             "title": "Interface Intelligente de Recherche de Symptômes et Traitements Médicamenteux",
-            "subtitle" : "Project pour un cours de masses de données",
-            "badges": ["Equipe de 3", "1 semaine", "Java"],
-            "description": ["Ce projet est une interface graphique interactive conçue pour aider les utilisateurs à identifier des maladies potentielles en fonction des symptômes ou des effets secondaires signalés. L'interface interroge différentes sources de données, telles que des bases médicales, des fichiers indexés et des documents textuels, en fonction des entrées de l'utilisateur.",
-            "L'un des défis de ce projet a été d'analyser les nombreuses données issues de cinq sources différentes afin d'identifier les informations pertinentes et d'établir des liens significatifs entre elles."],
-            "color" : "#6c757d",
+            "subtitle": "Project pour un cours de masses de données",
+            "badges": [
+                "Equipe de 3",
+                "1 semaine",
+                "Java"
+            ],
+            "description": [
+                "Ce projet est une interface graphique interactive conçue pour aider les utilisateurs à identifier des maladies potentielles en fonction des symptômes ou des effets secondaires signalés. L'interface interroge différentes sources de données, telles que des bases médicales, des fichiers indexés et des documents textuels, en fonction des entrées de l'utilisateur.",
+                "L'un des défis de ce projet a été d'analyser les nombreuses données issues de cinq sources différentes afin d'identifier les informations pertinentes et d'établir des liens significatifs entre elles."
+            ],
+            "color": "#6c757d",
             "link": "https://github.com/TheoHorn/gmd_project",
-            "linkType": "page github",
+            "linkType": "Page Github",
             "projectType": "Projet Telecom Nancy"
         },
-        {   
+        {
             "id": 7,
             "title": "Détection de marqueurs corporels en temps réel avec mediapipe",
-            "subtitle" : "Projet de découverte de la recherche",
-            "badges": ["Equipe de 2", "1 semestre", "Python (mediapipe)"],
-            "description": ["We worked on the early phases of a project with a research laboratory. This project is a serious game for physical reactivation aimed at elderly individuals. The goal was to detect body angles with a webcam, as accurately as possible with a minimalist installation. We conducted a state-of-the-art review of the libraries in use and tested various methods to evaluate their effectiveness."],
-            "color" : "#6c757d",
+            "subtitle": "Projet de découverte de la recherche",
+            "badges": [
+                "Equipe de 2",
+                "1 semestre",
+                "Python (mediapipe)"
+            ],
+            "description": [
+                "J'ai travaillé sur les premières phases d'un projet de recherche, qui est un jeu sérieux de remobilisation corporelle pour les personnes agées. Le but était de détecter les angles corporels à l'aide d'une webcam basique, une installation minimale. Nous avons effectué un état de l'art des technologies existantes de détection de marqueurs corporels et, après les avoir testé, avons déterminé celle qui sera la plus pretinente pour ce projet."
+            ],
+            "color": "#6c757d",
             "projectType": "Projet Telecom Nancy"
         },
-        {   
+        {
             "id": 8,
             "title": "Direct Dealing",
-            "subtitle" : "Application d'emprunt de matériel",
-            "badges": ["Equipe de 4", "5 jours (coding week)", "Java (JavaFX)"],
-            "description": ["DirectDealing est une application d'économie circulaire qui permet aux utilisateurs de prêter/emprunter du matériel (tondeuse, marteau-piqueur, éplucheur de légumes, etc.) et/ou d'offrir/demander des services (réparation d'une fuite d'eau, cours de piano, aide au déménagement, etc.).",
-            "Elle a été réalisée en cinq jours lors d'un challenge de coding week organisé par Telecom Nancy."],
+            "subtitle": "Application d'emprunt de matériel",
+            "badges": [
+                "Equipe de 4",
+                "5 jours (coding week)",
+                "Java (JavaFX)"
+            ],
+            "description": [
+                "DirectDealing est une application d'économie circulaire qui permet aux utilisateurs de prêter/emprunter du matériel (tondeuse, marteau-piqueur, éplucheur de légumes, etc.) et/ou d'offrir/demander des services (réparation d'une fuite d'eau, cours de piano, aide au déménagement, etc.).",
+                "Elle a été réalisée en cinq jours lors d'un challenge de coding week organisé par Telecom Nancy."
+            ],
             "link": "https://github.com/Hel88/Codingweek2024",
-            "linkType": "page github",
-            "color" : "#6c757d",
+            "linkType": "Page Github",
+            "color": "#6c757d",
             "projectType": "Projet Telecom Nancy"
         },
-        {   
+        {
             "id": 9,
             "title": "Le bonheur est dans le potager",
-            "subtitle" : "Application web de gestion de jardin partagé",
-            "badges": ["Equipe de 4", "1 semestre", "Python (Flask)"],
-            "description": ["*Le bonheur est dans le potager* est une application web permettant aux utilisateurs de rejoindre un jardin partagé, de posséder une parcelle et d’y ajouter des plantes. Un algorithme donne des conseils sur les associations de plantes favorables et suggère un agencement optimal dans la parcelle.",
-                "Elle a été réalisée en cinq jours lors d’un challenge de coding week organisé par Telecom Nancy"],
-            "color" : "#6c757d",
+            "subtitle": "Application web de gestion de jardin partagé",
+            "badges": [
+                "Equipe de 4",
+                "1 semestre",
+                "Python (Flask)"
+            ],
+            "description": [
+                "*Le bonheur est dans le potager* est une application web permettant aux utilisateurs de rejoindre un jardin partagé, de posséder une parcelle et d’y ajouter des plantes. Un algorithme donne des conseils sur les associations de plantes favorables et suggère un agencement optimal dans la parcelle.",
+                "Elle a été réalisée en cinq jours lors d’un challenge de coding week organisé par Telecom Nancy"
+            ],
+            "color": "#6c757d",
             "projectType": "Projet Telecom Nancy"
         }
     ]

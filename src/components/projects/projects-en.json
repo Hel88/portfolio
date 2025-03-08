@@ -2,8 +2,38 @@
     {   "sectionName": "Projects",
         "projects":[
 
-        {   
-            "id": 1,
+            {   
+                "id": 10,
+                "title": "Melty",
+                "subtitle" : "Wonderjam 2025",
+                "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/melty1.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/melty2.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/melty3.png"
+                    },
+                    {
+                        "type": "video",
+                        "filename": "/Melty.mp4"
+                    }                    
+                ],
+                "badges": ["Team of 4", "48 hours (game jam)", "Unreal engine (Blueprint)"],
+                "description": ["The player is an ice cube who wants to reach the boat at the beach before melting completely. The map is divided in several zones woth different temperatures, and the player must collect snowflakes to slow its melting.",
+                                "This game was made during the Wonderjam organized by AEMI-UQAC sponsored by Unisoft-Saguenay. The theme was 'frontiers' and we were attributed 3 sub-themes : 'collector', 'rogue-lite' and 'quest'."],
+                "color" : "#39ccbb",
+                "link": "https://kiribaton.itch.io/melty",
+                "linkType": "Itch.io page",
+                "projectType": "Game jam project"
+            },
+            {   
+            "id": 9,
             "title": "Lift to Heaven",
             "award": true,
             "subtitle" : "Code game jam 2025 - 1st place",
@@ -35,7 +65,7 @@
             "projectType": "Game jam project"
         },
         {   
-            "id": 2,
+            "id": 8,
             "title": "Frogy Frog",
             "subtitle" : "A plateformer game",
             "carousel_content": [
@@ -65,7 +95,7 @@
             "projectType": "UQAC project"
         },
         {   
-            "id": 3,
+            "id": 7,
             "title": "Shroomboom",
             "subtitle" : "Remaking of the bomberman game",
             "carousel_content": [
@@ -87,7 +117,7 @@
             "projectType": "UQAC project"
         },
         {   
-            "id": 4,
+            "id": 6,
             "title": "Brick Breaker",
             "subtitle" : "My first video game with Unreal",
             "carousel_content": [
@@ -124,7 +154,7 @@
             "projectType": "UQAC project"
         },
         {   
-            "id": 6,
+            "id": 4,
             "title": "Medical data integration system",
             "subtitle" : "Project for the data masses course",
             "badges": ["Team of 3", "1 week", "Java"],
@@ -136,7 +166,7 @@
             "projectType": "Telecom Nancy project"
         },
         {   
-            "id": 7,
+            "id": 3,
             "title": "Real time body landmarks detection with mediapipe",
             "subtitle" : "Interdisciplinary Research Discovery Project",
             "badges": ["Team of 2", "1 semester", "Python (mediapipe)"],
@@ -145,7 +175,7 @@
             "projectType": "Telecom Nancy project"
         },
         {   
-            "id": 8,
+            "id": 2,
             "title": "Direct Dealing",
             "subtitle" : "An app for lending and borrowing material",
             "badges": ["Team of 4", "5 days (coding week)", "Java (JavaFX)"],
@@ -157,7 +187,7 @@
             "projectType": "Telecom Nancy project"
         },
         {   
-            "id": 9,
+            "id": 1,
             "title": "Le bonheur est dans le potager",
             "subtitle" : "Web application for managing community gardens",
             "badges": ["Team of 4", "1 semester", "Python (Flask)"],

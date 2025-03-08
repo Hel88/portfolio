@@ -1,7 +1,7 @@
 {
     "sectionName": "Compétences",
     "subSectionLanguage" : "Langues",
-    "linguisticSkills" : ["Français (natif)", "Anglais (C1)", "Allemand (A2)"],
+    "linguisticSkills" : ["Français (natif)", "Anglais (C1, 970/990 au TOIEC)", "Allemand (A2)"],
     "subSectionOther" : "Autres",
     "otherSkills" : ["Gestion de projet (cours MOOC en ligne)", "Dessin (Clip Studio Paint, Inkscape)", "Modélisation 3D basique (Blender)"],
     "subSectionTechnical" : "Techniques",
@@ -14,7 +14,7 @@
         {
             "id": "unity",
             "title": "Unity",
-            "description": "Utilisé dans un cours de réalité de virtuel à l'UQAC."
+            "description": "Utilisé dans le cours de réalité virtuelle à l'UQAC."
         },
         {
             "id": "python",
