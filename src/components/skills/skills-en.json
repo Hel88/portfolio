@@ -27,6 +27,11 @@
             "description": "Used in math and physics courses for video games (openframework), as well as in the game engine course."
         },
         {
+            "id": "android",
+            "title": "Android Studio",
+            "description": "Used in the mobile applications course at UQAC."
+        },
+        {
             "id": "java",
             "title": "Java",
             "description": "OOP (Object-Oriented Programming) course at Telecom Nancy, GUI development with JavaFX for three projects and during an internship."

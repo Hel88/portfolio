@@ -46,7 +46,7 @@ export default function Home() {
 
             <div className='pt-5'> </div>
             <p className='text-center text-secondary'>
-              <em>Made with nextjs and bootstrap. Last updated : jan 2025</em>
+              <em>Made with nextjs and bootstrap. Last updated : apr 2025</em>
             </p>
 
           </div>

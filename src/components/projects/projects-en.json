@@ -1,7 +1,85 @@
 
     {   "sectionName": "Projects",
         "projects":[
-
+            {
+                "id": 13,
+                "title": "XSpin",
+                "subtitle": "Multiplayer spinning tops battle game",
+                "carousel_content": [
+                        {
+                            "type": "video",
+                            "filename": "/XSpin.mp4"
+                        }                  
+                    ],
+                "badges": [
+                    "Team of 5",
+                    "1 trimester",
+                    "Unreal Engine"
+                ],
+                "description": [
+                    "*XSpin* is a multiplayer spinning tops combat game, where the players (2 to 4) fight on dynamic arenas, using their special capacities.",
+                    "I implemented the dynamic elements of the arenas : the bumpers and bats from the flipper map, as well as the canons on the pirate map (using Unreal's AI framework). I implemented the dynamic camera following the players, worked on the UI elements and the map's cinematics. I also made some 3D models (bumpers and flipper bats), as well as some VFX (smoke from the canons and wind on the pirate arena).",
+                    "*Itch.io page coming soon*"
+                ],
+                "color": "#39ccbb",
+                "projectType": "UQAC project"
+            },
+            {
+                "id": 12,
+                "title": "Bowling Builder",
+                "subtitle": "Strategic bowling game in Virtual Reality",
+                "carousel_content": [
+                    {
+                        "type": "youtube",
+                        "filename": "https://www.youtube.com/embed/k_tGYnsshRg?si=ZM2K87gCZm-OFnw0"
+                    }
+                ],
+                "badges": [
+                    "Team of 3",
+                    "1 trimester",
+                    "Unity"
+                ],
+                "description": [
+                    "*Bowling Builder* is a strategic bowling game in virtual reality, where the player can place blocs to deflect the ball's trajectory. They can also influence the ball when it is thrown by tilting their head. There are 3 levels with different obstacles (like trenches, walls), as well as a tutorial. ",
+                    "I worked on the 'bowling part' of the project : throwing the ball, hitting the pins, starting from a launch zone, managing the score and the reset zones. I also designed and implemented the tutorial and the first level, along with adding audio, visual and haptic feedbacks."
+                ],
+                "color": "#ea8b27c1",
+                "link": "https://github.com/IDalb/BowlingBuilder",
+                "linkType": "Github page",
+                "projectType": "UQAC project"
+            },
+            {
+                "id": 11,
+                "title": "Atubu",
+                "subtitle": "Mobile app : water tracker",
+                "carousel_content": [
+                        {
+                            "type": "photo",
+                            "filename": "/Atubu/Atubu1.png"
+                        },
+                        {
+                            "type": "photo",
+                            "filename": "/Atubu/Atubu2.png"
+                        },
+                        {
+                            "type": "photo",
+                            "filename": "/Atubu/Atubu3.png"
+                        }              
+                    ],
+                "badges": [
+                    "Team of 4",
+                    "1 trimester",
+                    "Android studio"
+                ],
+                "description": [
+                    "*Atubu* is a mobile app allowing you to track your water consumption, thanks to a plant reflecting your current hydration level. Its features include : registering the water quantity you drink every day, adding custom water glasses, consulting your garden (calendar), receiving notifications, adding a widget to your home page. ",
+                    "I particularly worked on the main page, implementing the gauge and plant state, along with the custom glasses, the unit changes (oz/mL), and a part of the garden page."
+                ],
+                "color": "#58a826c1",
+                "link": "https://github.com/Hel88/Atubu",
+                "linkType": "Github page",
+                "projectType": "UQAC project"
+            },
             {   
                 "id": 10,
                 "title": "Melty",
@@ -9,19 +87,19 @@
                 "carousel_content": [
                     {
                         "type": "photo",
-                        "filename": "/melty1.png"
+                        "filename": "/Melty/melty1.png"
                     },
                     {
                         "type": "photo",
-                        "filename": "/melty2.png"
+                        "filename": "/Melty/melty2.png"
                     },
                     {
                         "type": "photo",
-                        "filename": "/melty3.png"
+                        "filename": "/Melty/melty3.png"
                     },
                     {
                         "type": "video",
-                        "filename": "/Melty.mp4"
+                        "filename": "/Melty/Melty.mp4"
                     }                    
                 ],
                 "badges": ["Team of 4", "48 hours (game jam)", "Unreal engine (Blueprint)"],
@@ -40,24 +118,24 @@
             "carousel_content": [
                 {
                     "type": "photo",
-                    "filename": "/liftToHeaven1.png"
+                    "filename": "lifttoheaven/liftToHeaven1.png"
                 },
                 {
                     "type": "photo",
-                    "filename": "/liftToHeaven2.png"
+                    "filename": "lifttoheaven/liftToHeaven2.png"
                 },
                 {
                     "type": "video",
-                    "filename": "/liftToHeaven3.mp4"
+                    "filename": "lifttoheaven/liftToHeaven3.mp4"
                 },
                 {
                     "type": "video",
-                    "filename": "/liftToHeaven4.mp4"
+                    "filename": "lifttoheaven/liftToHeaven4.mp4"
                 }
                 
             ],
             "badges": ["Team of 3", "30 hours (game jam)", "Unreal engine (Blueprint)"],
-            "description": ["In Lift to Heaven, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.",
+            "description": ["In *Lift to Heaven*, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.",
                             "This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was \"Mélodie à l'infini\" (melody to infinity). It won the **1st place**, out of 68 teams."],
             "color" : "#ea8b27c1",
             "link": "https://kiribaton.itch.io/lifttoheaven",
@@ -71,19 +149,19 @@
             "carousel_content": [
                 {
                     "type": "photo",
-                    "filename": "frog3.png"
+                    "filename": "Frog/frog3.png"
                 },
                 {
                     "type": "video",
-                    "filename": "frogyfrog_gameplay.mp4"
+                    "filename": "Frog/frogyfrog_gameplay.mp4"
                 },
                 {
                     "type": "photo",
-                    "filename": "frog2.png"
+                    "filename": "Frog/frog2.png"
                 },
                 {
                     "type": "photo",
-                    "filename": "frog4.png"
+                    "filename": "Frog/frog4.png"
                 }
             ],
             "badges": ["Team of 3", "5 weeks", "Unreal engine (C++, Blueprint)"],
@@ -100,20 +178,14 @@
             "subtitle" : "Remaking of the bomberman game",
             "carousel_content": [
                 {
-                    "type": "photo",
-                    "filename": "bomberman.png"
-                },
-                {
                     "type": "video",
-                    "filename": "bomberman_prise1.mp4"
+                    "filename": "Bomberman/bomberman_prise1.mp4"
                 }
             ],
             "badges": ["Team of 3", "2 weeks", "Unreal engine (C++, Blueprint)"],
             "description": ["This project is a redesigning of the famous bomberman game. It is a 2-4 players competitive game, where the players (mushrooms here) have to eliminate the others by droping bombs. There are 2 types of bonuses it this version.",
                 "I worked on the movements of the players, on the UI elements and on the designs of the game."],
             "color" : "#b33e17c1",
-            "link": "https://mathis-ollier.itch.io/frogyfrog",
-            "linkType": "Itch.io page",
             "projectType": "UQAC project"
         },
         {   
@@ -122,12 +194,8 @@
             "subtitle" : "My first video game with Unreal",
             "carousel_content": [
                 {
-                    "type": "photo",
-                    "filename": "brickbreaker.png"
-                },
-                {
                     "type": "video",
-                    "filename": "brickbreaker_gameplay.mp4"
+                    "filename": "brickbreaker/brickbreaker_gameplay.mp4"
                 }
             ],
             "badges": ["Solo", "2 weeks", "Unreal engine (Blueprint)"],

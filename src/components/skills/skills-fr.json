@@ -27,6 +27,11 @@
             "description": "Utilisé dans le cours de mathématiques et physiques pour le jeu vidéo de l'UQAC (openframework), ainsi que dans le cours de fondamentaux des moteurs de jeux."
         },
         {
+            "id": "android",
+            "title": "Android Studio",
+            "description": "Utilisé dans le cours d'applications mobiles de l'UQAC."
+        },
+        {
             "id": "java",
             "title": "Java",
             "description": "Utilisé lors de cours de programmation orientée objet à Telecom Nancy, interfaces réalisées avec JavaFX lors de plusieurs projets à Telecom Nancy et lors d'un stage."

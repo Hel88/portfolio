@@ -19,7 +19,7 @@ export default function Project({ project }) {
         {/* Carousel ou image/vidéo unique */}
         {project.carousel_content && project.carousel_content.length > 1 ? (
           // Carousel avec plusieurs éléments
-          <div id={`carousel-${project.id}`} className="carousel slide" data-bs-ride="carousel">
+          <div id={`carousel-${project.id}`} className="carousel slide" data-bs-ride="false">
             <div className="carousel-indicators">
               {project.carousel_content.map((_, index) => (
                 <button
@@ -37,12 +37,21 @@ export default function Project({ project }) {
                 <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
                   {item.type === "photo" ? (
                     <img src={item.filename} className="d-block w-100" alt={`Slide ${index + 1}`} />
-                  ) : (
+                  ) : item.type === "video" ? (
                     <video className="d-block w-100" autoPlay loop muted>
                       <source src={item.filename} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-                  )}
+                  ) : item.type === "youtube" ? (
+                    <div className="ratio ratio-16x9">
+                    <iframe
+                      src={item.filename}
+                      title={`YouTube video ${index + 1}`}
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  ) : null}
                 </div>
               ))}
             </div>
@@ -61,12 +70,21 @@ export default function Project({ project }) {
             {project.carousel_content && project.carousel_content.length === 1 && (
               project.carousel_content[0].type === "photo" ? (
                 <img src={project.carousel_content[0].filename} className="d-block w-100" alt="Unique item" />
-              ) : (
-                <video className="d-block w-100" autoPlay loop muted>
+              ) : project.carousel_content[0].type === "video" ? (
+                <video className="d-block w-100" loop muted controls>
                   <source src={project.carousel_content[0].filename} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-              )
+              ) : project.carousel_content[0].type === "youtube" ? (
+                <div className="ratio ratio-16x9">
+                    <iframe
+                      src={project.carousel_content[0].filename}
+                      title={`YouTube video`}
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+              ) : null
             )}
           </div>
         )}
