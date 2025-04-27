@@ -318,9 +318,7 @@
                 "Python (Flask)"
             ],
             "description": [
-                "*Le bonheur est dans le potager* est une application web permettant aux utilisateurs de rejoindre un jardin partagé, de posséder une parcelle et d’y ajouter des plantes. Un algorithme donne des conseils sur les associations de plantes favorables et suggère un agencement optimal dans la parcelle.",
-                "Elle a été réalisée en cinq jours lors d’un challenge de coding week organisé par Telecom Nancy"
-            ],
+                "*Le bonheur est dans le potager* est une application web permettant aux utilisateurs de rejoindre un jardin partagé, de posséder une parcelle et d’y ajouter des plantes. Un algorithme donne des conseils sur les associations de plantes favorables et suggère un agencement optimal dans la parcelle."],
             "color": "#6c757d",
             "projectType": "Projet Telecom Nancy"
         }

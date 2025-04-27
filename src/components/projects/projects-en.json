@@ -259,8 +259,7 @@
             "title": "Le bonheur est dans le potager",
             "subtitle" : "Web application for managing community gardens",
             "badges": ["Team of 4", "1 semester", "Python (Flask)"],
-            "description": ["*Le bonheur est dans le potager* is a web application that allows connected users to join a community garden, to own a parcell and to add plants in it. An algorithm gives advices on which plants go well together, and suggests adequate placement in the parcell.",
-                "It was done in 5 days, during a coding week challenge organized by Telecom Nancy."],
+            "description": ["*Le bonheur est dans le potager* is a web application that allows connected users to join a community garden, to own a parcell and to add plants in it. An algorithm gives advices on which plants go well together, and suggests adequate placement in the parcell."],
             "color" : "#6c757d",
             "projectType": "Telecom Nancy project"
         }

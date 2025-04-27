@@ -91,6 +91,8 @@ export default function Project({ project }) {
 
         {/* Body de la carte */}
         <div className="card-body">
+
+          {/* Badges */}
           <div className="d-flex flex-wrap justify-content-center gap-3">
             {project.badges.map((badge, index) => (
               <span key={index} className="badge" style={{ backgroundColor: project.color }}>
@@ -98,10 +100,13 @@ export default function Project({ project }) {
               </span>
             ))}
           </div>
+
+          {/* Description */}
           {project.description.map((paragraph, index) =>(
             <ReactMarkdown key={index} className=" mt-3" >{paragraph}</ReactMarkdown>
           ))}
 
+          {/* Liens */}
           {project.link && (
             <a href={project.link} className="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-link"></i> {project.linkType}
