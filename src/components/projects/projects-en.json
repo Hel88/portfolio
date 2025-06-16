@@ -2,6 +2,29 @@
     {   "sectionName": "Projects",
         "projects":[
             {
+            "id": 14,
+            "title": "Neorush",
+            "subtitle": "Multiplayer Motorcycle Game (Tron remake)",
+            "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Neorush1.png"
+                    }                       
+                ],
+            "badges": [
+                "Team of 6",
+                "2 months",
+                "Unreal Engine"
+            ],
+            "description": [
+                "*Neorush* is a local multiplayer motorcycle combat game (up to 4 players) where players must trap others using their light trails. This game is a 3D remake of the Tron arcade game. Players can compete against each other and against computer-controlled bikes.",
+                "During this project, I primarily worked on the AI for the opponent bikes. I used Unreal's AI framework with behavior trees and the EQS (Environment Query System) to give the AI interesting behavior. They play defensively by avoiding trails on the field but become aggressive toward other players when the opportunity arises.",
+                "*Itch.io page under construction, video coming soon*"
+            ],
+            "color": "#c86060",
+            "projectType": "UQAC Project"
+        },
+            {
                 "id": 13,
                 "title": "XSpin",
                 "subtitle": "Multiplayer spinning tops battle game",
