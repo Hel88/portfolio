@@ -308,7 +308,7 @@
                 "Python (mediapipe)"
             ],
             "description": [
-                "J'ai travaillé sur les premières phases d'un projet de recherche, qui est un jeu sérieux de remobilisation corporelle pour les personnes agées. Le but était de détecter les angles corporels à l'aide d'une webcam basique, une installation minimale. Nous avons effectué un état de l'art des technologies existantes de détection de marqueurs corporels et, après les avoir testé, avons déterminé celle qui sera la plus pretinente pour ce projet."
+                "J'ai travaillé sur les premières phases d'un projet de recherche, qui est un jeu sérieux de remobilisation corporelle pour les personnes âgées. Le but était de détecter les angles corporels à l'aide d'une webcam basique, une installation minimale. Nous avons effectué un état de l'art des technologies existantes de détection de marqueurs corporels et, après les avoir testé, avons déterminé celle qui sera la plus pertinente pour ce projet."
             ],
             "color": "#6c757d",
             "projectType": "Projet Telecom Nancy"
