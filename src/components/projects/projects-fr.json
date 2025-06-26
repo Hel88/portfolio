@@ -8,8 +8,25 @@
             "carousel_content": [
                     {
                         "type": "photo",
-                        "filename": "/Neorush/Neorush1.png"
-                    }                       
+                        "filename": "/Neorush/Screenshot_Gameplay4Joueurs.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_DeathScreen.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_Score.png"
+                    },                 
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_Menu.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_Partez.png"
+                    }
+                    
                 ],
             "badges": [
                 "Equipe de 6",
@@ -18,7 +35,7 @@
             ],
             "description": [
                 "*Neorush* est un jeu de combat de motos en multijoueur local (jusqu'à 4 joueurs) où les joueurs doivent bloquer les autres avec leur trainée lumineuse. Ce jeu est un remake 3D du jeu d'arcade Tron. Les joueurs peuvent s'affronter entre eux, et affronter des motos contrôlées par l'ordinateur.",
-                "Durant ce projet, j'ai principalement travaillé sur les IA des motos adverses. J'ai utilisé le framework IA d'Unreal avec les behavior tree, ainsi que l'EQS (environment query system), afin de donner un comportement intéressant aux IA. Elles ont un comportement défensif en évitant les trainées sur le terrain, mais sont aggressives envers les autres joueurs quand l'opportunité se présente.",
+                "Durant ce projet, j'ai principalement travaillé sur les IA des motos adverses. J'ai utilisé le framework IA d'Unreal avec les behavior tree, ainsi que l'EQS (environment query system), afin de donner un comportement intéressant aux IA. Elles ont un comportement défensif en évitant les trainées sur le terrain, mais sont aggressives envers les autres joueurs quand l'opportunité se présente. J'ai également participé au design des UI, et implémenté l'écran de fin de partie.",
                 "*Page itch.io en construction, vidéo à venir*"
             ],
             "color": "#c86060",
@@ -131,7 +148,8 @@
                 "Unreal engine (Blueprint)"
             ],
             "description": [
-                "Le joueur incarne un glaçon qui cherche à rejoindre un bateau sur la plage avant de fondre. La carte est divisée en plusieurs zones de plus en plus chaudes, et le joueur doit récolter des flocons pour augmenter sa résistance à la chaleur à chaque nouvelle partie.",
+                "Le joueur incarne un glaçon qui cherche à rejoindre un bateau sur la plage avant de fondre. La carte est divisée en plusieurs zones de plus en plus chaudes, et le joueur doit récolter des flocons pour augmenter sa résistance à la chaleur à chaque nouvelle partie. ",
+                "J'ai travaillé sur le système de collectible/quêtes, ainsi que sur les UI.",
                 "Ce jeu a été réalisé lors de la Wonderjam d'hiver 2025 organisée par l'AEMU-UQAC, propulsée par Ubisoft Saguenay. Le thème de l'édition était 'Frontières', et les styles que nous avons tirés au hasard sont 'collecteurs', 'rogue-lite' et 'quête'."
             ],
             "color": "#39ccbb",
@@ -169,6 +187,7 @@
             ],
             "description": [
                 "Dans *Lift to Heaven*, le joueur doit s'assurer que la musique de l'ascenceur continue en appuyant sur le bon bouton. Il doit les chercher dans des boîtes qui se débloquent au fur et à mesure, sous un chapeau ou un tapis afin d'augmenter le volume de la musique et monter le plus haut possible.",
+                "J'ai implémenté la mécanique principale et le gameplay, ainsi que les menus.",
                 "Ce jeu a été créé pour la Code Game Jam 2025 de l'IUT de Montpellier. Le thème était *Mélodie à l'infini*. Il a remporté la **1ʳᵉ place** parmi 68 équipes."
             ],
             "color": "#ea8b27c1",

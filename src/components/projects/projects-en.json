@@ -8,8 +8,24 @@
             "carousel_content": [
                     {
                         "type": "photo",
-                        "filename": "/Neorush/Neorush1.png"
-                    }                       
+                        "filename": "/Neorush/Screenshot_Gameplay4Joueurs.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_DeathScreen.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_Score.png"
+                    },                 
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_Menu.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Neorush/Screenshot_Partez.png"
+                    }                     
                 ],
             "badges": [
                 "Team of 6",
@@ -18,8 +34,8 @@
             ],
             "description": [
                 "*Neorush* is a local multiplayer motorcycle combat game (up to 4 players) where players must trap others using their light trails. This game is a 3D remake of the Tron arcade game. Players can compete against each other and against computer-controlled bikes.",
-                "During this project, I primarily worked on the AI for the opponent bikes. I used Unreal's AI framework with behavior trees and the EQS (Environment Query System) to give the AI interesting behavior. They play defensively by avoiding trails on the field but become aggressive toward other players when the opportunity arises.",
-                "*Itch.io page under construction, video coming soon*"
+                "During this project, I primarily worked on the AI for the opponent bikes. I used Unreal's AI framework with behavior trees and the EQS (Environment Query System) to give the AI interesting behavior. They play defensively by avoiding trails on the field but become aggressive toward other players when the opportunity arises. I also helped design the UI, and implemented the endgame screen.",
+                "*Itch.io page and video coming soon*"
             ],
             "color": "#c86060",
             "projectType": "UQAC Project"
@@ -127,6 +143,7 @@
                 ],
                 "badges": ["Team of 4", "48 hours (game jam)", "Unreal engine (Blueprint)"],
                 "description": ["The player is an ice cube who wants to reach the boat at the beach before melting completely. The map is divided in several zones woth different temperatures, and the player must collect snowflakes to slow its melting.",
+                                "I implemented the collectible/quest system, and UI elements.",
                                 "This game was made during the Wonderjam organized by AEMI-UQAC sponsored by Unisoft-Saguenay. The theme was 'frontiers' and we were attributed 3 sub-themes : 'collector', 'rogue-lite' and 'quest'."],
                 "color" : "#39ccbb",
                 "link": "https://kiribaton.itch.io/melty",
@@ -159,6 +176,7 @@
             ],
             "badges": ["Team of 3", "30 hours (game jam)", "Unreal engine (Blueprint)"],
             "description": ["In *Lift to Heaven*, the player must keep the music of the elevator playing by finding and pushing the right button. They have to find them in boxes, under hats or rugs in order to increase the volume of the music, and go as high as possible.",
+                            "I implemented the gameplay mechanics, as well as the menus.",
                             "This game was made for the 2025 Code Game Jam of Montpellier's IUT school. The theme was \"Mélodie à l'infini\" (melody to infinity). It won the **1st place**, out of 68 teams."],
             "color" : "#ea8b27c1",
             "link": "https://kiribaton.itch.io/lifttoheaven",
