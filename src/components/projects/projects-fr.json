@@ -235,27 +235,7 @@
             "color": "#b33e17c1",
             "projectType": "Projet UQAC"
         },
-        {
-            "id": 4,
-            "title": "Casse-briques",
-            "subtitle": "Mon premier jeu avec Unreal Engine",
-            "carousel_content": [
-                {
-                    "type": "video",
-                    "filename": "brickbreaker/brickbreaker_gameplay.mp4"
-                }
-            ],
-            "badges": [
-                "Solo",
-                "2 semaines",
-                "Unreal engine (Blueprint)"
-            ],
-            "description": [
-                "Mon premier jeu avec Unreal était un casse-briques."
-            ],
-            "color": "#1b6d9ac1",
-            "projectType": "Projet UQAC"
-        },
+      
         {
             "id": 5,
             "title": "Reconnaissance de la langue des signes américaine",

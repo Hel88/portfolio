@@ -211,21 +211,7 @@
             "color" : "#b33e17c1",
             "projectType": "UQAC project"
         },
-        {   
-            "id": 6,
-            "title": "Brick Breaker",
-            "subtitle" : "My first video game with Unreal",
-            "carousel_content": [
-                {
-                    "type": "video",
-                    "filename": "brickbreaker/brickbreaker_gameplay.mp4"
-                }
-            ],
-            "badges": ["Solo", "2 weeks", "Unreal engine (Blueprint)"],
-            "description": ["My first video game with Unreal Engine was a brick breaker game."],
-            "color" : "#1b6d9ac1",
-            "projectType": "UQAC project"
-        },
+        
         {   
             "id": 5,
             "title": "Sign language recognition",
