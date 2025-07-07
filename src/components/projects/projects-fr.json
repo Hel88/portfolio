@@ -41,6 +41,7 @@
             "color": "#c86060",
             "projectType": "Projet UQAC"
         },
+        
         {
             "id": 13,
             "title": "XSpin",
@@ -63,99 +64,6 @@
             ],
             "color": "#39ccbb",
             "projectType": "Projet UQAC"
-        },
-        {
-            "id": 12,
-            "title": "Bowling Builder",
-            "subtitle": "Bowling stratégique en VR",
-            "carousel_content": [
-                    {
-                        "type": "youtube",
-                        "filename": "https://www.youtube.com/embed/k_tGYnsshRg?si=ZM2K87gCZm-OFnw0"
-                    }
-                ],
-            "badges": [
-                "Equipe de 3",
-                "1 trimestre",
-                "Unity"
-            ],
-            "description": [
-                "*Bowling Builder* est un jeu de bowling stratégique en réalité virtuelle, dans lequel le joueur doit placer des blocs pour dévier la balle et faire tomber les quilles. Il peut aussi dévier la trajectoire de la balle quand elle est lancée en penchant la tête. Le jeu contient 3 niveaux et un tutoriel ayant chacun ses obstacles (douves, murs) et défis.",
-                "J'ai travaillé sur la partie 'bowling' du projet, à savoir attraper et lancer la balle sur les quilles, avoir une zone de lancer, faire réapparaître la balle quand elle sort du terrain, et gérer le score. J'ai aussi fait le niveau tutoriel et travaillé sur le niveau 1, ainsi qu'ajouté les feedbacks visuels, sonores et haptiques relatifs à cette partie du jeu."
-            ],
-            "color": "#ea8b27c1",
-            "link": "https://github.com/IDalb/BowlingBuilder",
-            "linkType": "Page Github",
-            "projectType": "Projet UQAC"
-        },
-        {
-            "id": 11,
-            "title": "Atubu",
-            "subtitle": "Application mobile : traqueur de consommation d'eau",
-            "carousel_content": [
-                    {
-                        "type": "photo",
-                        "filename": "/Atubu/Atubu1.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Atubu/Atubu2.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Atubu/Atubu3.png"
-                    }
-                ],
-            "badges": [
-                "Equipe de 4",
-                "1 trimestre",
-                "Android studio"
-            ],
-            "description": [
-                "*Atubu* est une application mobile permettant de traquer sa consommation d'eau de façon ludique, à l'aide d'un avatar qui reflète notre niveau d'hydratation. Il est possible d'indiquer la quantité d'eau qu'on a bue chaque jour grâce à des verres qu'on peut personnaliser, on peut recevoir des notifications nous rappelant de boire, ajouter un widget de notre plante, et consulter notre jardin (calendrier).",
-                "J'ai travaillé sur la page d'accueil, comprenant la gestion de la jauge d'eau, de la plante et des verres, les changements d'unités de mesure, ainsi qu'une partie de la page jardin."
-            ],
-            "color": "#58a826c1",
-            "link": "https://github.com/Hel88/Atubu",
-            "linkType": "Page Github",
-            "projectType": "Projet UQAC"
-        },
-        {
-            "id": 10,
-            "title": "Melty",
-            "subtitle": "Wonderjam édition hiver 2025",
-            "carousel_content": [
-                    {
-                        "type": "photo",
-                        "filename": "/Melty/melty1.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Melty/melty2.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Melty/melty3.png"
-                    },
-                    {
-                        "type": "video",
-                        "filename": "/Melty/Melty.mp4"
-                    }                    
-                ],
-            "badges": [
-                "Equipe de 4",
-                "48 heures (game jam)",
-                "Unreal engine (Blueprint)"
-            ],
-            "description": [
-                "Le joueur incarne un glaçon qui cherche à rejoindre un bateau sur la plage avant de fondre. La carte est divisée en plusieurs zones de plus en plus chaudes, et le joueur doit récolter des flocons pour augmenter sa résistance à la chaleur à chaque nouvelle partie. ",
-                "J'ai travaillé sur le système de collectible/quêtes, ainsi que sur les UI.",
-                "Ce jeu a été réalisé lors de la Wonderjam d'hiver 2025 organisée par l'AEMU-UQAC, propulsée par Ubisoft Saguenay. Le thème de l'édition était 'Frontières', et les styles que nous avons tirés au hasard sont 'collecteurs', 'rogue-lite' et 'quête'."
-            ],
-            "color": "#39ccbb",
-            "link": "https://kiribaton.itch.io/melty",
-            "linkType": "Page itch.io",
-            "projectType": "Game jam"
         },
         {
             "id": 1,
@@ -195,6 +103,141 @@
             "linkType": "Page itch.io",
             "projectType": "Game jam"
         },
+        {
+            "id": 12,
+            "title": "Bowling Builder",
+            "subtitle": "Bowling stratégique en VR",
+            "carousel_content": [
+                    {
+                        "type": "youtube",
+                        "filename": "https://www.youtube.com/embed/k_tGYnsshRg?si=ZM2K87gCZm-OFnw0"
+                    }
+                ],
+            "badges": [
+                "Equipe de 3",
+                "1 trimestre",
+                "Unity"
+            ],
+            "description": [
+                "*Bowling Builder* est un jeu de bowling stratégique en réalité virtuelle, dans lequel le joueur doit placer des blocs pour dévier la balle et faire tomber les quilles. Il peut aussi dévier la trajectoire de la balle quand elle est lancée en penchant la tête. Le jeu contient 3 niveaux et un tutoriel ayant chacun ses obstacles (douves, murs) et défis.",
+                "J'ai travaillé sur la partie 'bowling' du projet, à savoir attraper et lancer la balle sur les quilles, avoir une zone de lancer, faire réapparaître la balle quand elle sort du terrain, et gérer le score. J'ai aussi fait le niveau tutoriel et travaillé sur le niveau 1, ainsi qu'ajouté les feedbacks visuels, sonores et haptiques relatifs à cette partie du jeu."
+            ],
+            "color": "#ea8b27c1",
+            "link": "https://github.com/IDalb/BowlingBuilder",
+            "linkType": "Page Github",
+            "projectType": "Projet UQAC"
+        },
+        
+        {
+            "id": 10,
+            "title": "Melty",
+            "subtitle": "Wonderjam édition hiver 2025",
+            "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/Melty/melty1.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Melty/melty2.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Melty/melty3.png"
+                    },
+                    {
+                        "type": "video",
+                        "filename": "/Melty/Melty.mp4"
+                    }                    
+                ],
+            "badges": [
+                "Equipe de 4",
+                "48 heures (game jam)",
+                "Unreal engine (Blueprint)"
+            ],
+            "description": [
+                "Le joueur incarne un glaçon qui cherche à rejoindre un bateau sur la plage avant de fondre. La carte est divisée en plusieurs zones de plus en plus chaudes, et le joueur doit récolter des flocons pour augmenter sa résistance à la chaleur à chaque nouvelle partie. ",
+                "J'ai travaillé sur le système de collectible/quêtes, ainsi que sur les UI.",
+                "Ce jeu a été réalisé lors de la Wonderjam d'hiver 2025 organisée par l'AEMU-UQAC, propulsée par Ubisoft Saguenay. Le thème de l'édition était 'Frontières', et les styles que nous avons tirés au hasard sont 'collecteurs', 'rogue-lite' et 'quête'."
+            ],
+            "color": "#39ccbb",
+            "link": "https://kiribaton.itch.io/melty",
+            "linkType": "Page itch.io",
+            "projectType": "Game jam"
+        },
+
+        {
+            "id": 15,
+            "title": "Squicky",
+            "subtitle": "Jeu sérieux sur la protection des forêts",
+            "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky3.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky2.png"
+                    },                 
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky4.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky1.png"
+                    }
+                    
+                ],
+            "badges": [
+                "Equipe de 2",
+                "1 mois",
+                "Unity"
+            ],
+            "description": [
+                "*Squicky* est un jeu sérieux pour sensibiliser sur les bons gestes à adopter en forêt. Il a été réalisé dans le cadre d'un cours de jeux sérieux à l'UQAC. Le joueur incarne un écureuil qui doit protéger saa forêt, en ramassant des déchets, en éteignant des feux de camp et en déplacant les tentes placées sur des zones protégées.",
+                "Je me suis occupée du level design ainsi que du système d'interaction et de ramassage de déchêts.",
+                "Le jeu est jouable dans un navigateur web."
+            ],
+            "color": "#58a826c1",
+            "link": "https://edorion.itch.io/squicky",
+            "linkType": "Page itch.io",
+            "projectType": "Projet UQAC"
+        },
+
+        {
+            "id": 11,
+            "title": "Atubu",
+            "subtitle": "Application mobile : traqueur de consommation d'eau",
+            "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/Atubu/Atubu1.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Atubu/Atubu2.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Atubu/Atubu3.png"
+                    }
+                ],
+            "badges": [
+                "Equipe de 4",
+                "1 trimestre",
+                "Android studio"
+            ],
+            "description": [
+                "*Atubu* est une application mobile permettant de traquer sa consommation d'eau de façon ludique, à l'aide d'un avatar qui reflète notre niveau d'hydratation. Il est possible d'indiquer la quantité d'eau qu'on a bue chaque jour grâce à des verres qu'on peut personnaliser, on peut recevoir des notifications nous rappelant de boire, ajouter un widget de notre plante, et consulter notre jardin (calendrier).",
+                "J'ai travaillé sur la page d'accueil, comprenant la gestion de la jauge d'eau, de la plante et des verres, les changements d'unités de mesure, ainsi qu'une partie de la page jardin."
+            ],
+            "color": "#58a826c1",
+            "link": "https://github.com/Hel88/Atubu",
+            "linkType": "Page Github",
+            "projectType": "Projet UQAC"
+        },
+        
         {
             "id": 2,
             "title": "Frogy Frog",

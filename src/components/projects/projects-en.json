@@ -63,93 +63,6 @@
                 "color": "#39ccbb",
                 "projectType": "UQAC project"
             },
-            {
-                "id": 12,
-                "title": "Bowling Builder",
-                "subtitle": "Strategic bowling game in Virtual Reality",
-                "carousel_content": [
-                    {
-                        "type": "youtube",
-                        "filename": "https://www.youtube.com/embed/k_tGYnsshRg?si=ZM2K87gCZm-OFnw0"
-                    }
-                ],
-                "badges": [
-                    "Team of 3",
-                    "1 trimester",
-                    "Unity"
-                ],
-                "description": [
-                    "*Bowling Builder* is a strategic bowling game in virtual reality, where the player can place blocs to deflect the ball's trajectory. They can also influence the ball when it is thrown by tilting their head. There are 3 levels with different obstacles (like trenches, walls), as well as a tutorial. ",
-                    "I worked on the 'bowling part' of the project : throwing the ball, hitting the pins, starting from a launch zone, managing the score and the reset zones. I also designed and implemented the tutorial and the first level, along with adding audio, visual and haptic feedbacks."
-                ],
-                "color": "#ea8b27c1",
-                "link": "https://github.com/IDalb/BowlingBuilder",
-                "linkType": "Github page",
-                "projectType": "UQAC project"
-            },
-            {
-                "id": 11,
-                "title": "Atubu",
-                "subtitle": "Mobile app : water tracker",
-                "carousel_content": [
-                        {
-                            "type": "photo",
-                            "filename": "/Atubu/Atubu1.png"
-                        },
-                        {
-                            "type": "photo",
-                            "filename": "/Atubu/Atubu2.png"
-                        },
-                        {
-                            "type": "photo",
-                            "filename": "/Atubu/Atubu3.png"
-                        }              
-                    ],
-                "badges": [
-                    "Team of 4",
-                    "1 trimester",
-                    "Android studio"
-                ],
-                "description": [
-                    "*Atubu* is a mobile app allowing you to track your water consumption, thanks to a plant reflecting your current hydration level. Its features include : registering the water quantity you drink every day, adding custom water glasses, consulting your garden (calendar), receiving notifications, adding a widget to your home page. ",
-                    "I particularly worked on the main page, implementing the gauge and plant state, along with the custom glasses, the unit changes (oz/mL), and a part of the garden page."
-                ],
-                "color": "#58a826c1",
-                "link": "https://github.com/Hel88/Atubu",
-                "linkType": "Github page",
-                "projectType": "UQAC project"
-            },
-            {   
-                "id": 10,
-                "title": "Melty",
-                "subtitle" : "Wonderjam 2025",
-                "carousel_content": [
-                    {
-                        "type": "photo",
-                        "filename": "/Melty/melty1.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Melty/melty2.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Melty/melty3.png"
-                    },
-                    {
-                        "type": "video",
-                        "filename": "/Melty/Melty.mp4"
-                    }                    
-                ],
-                "badges": ["Team of 4", "48 hours (game jam)", "Unreal engine (Blueprint)"],
-                "description": ["The player is an ice cube who wants to reach the boat at the beach before melting completely. The map is divided in several zones woth different temperatures, and the player must collect snowflakes to slow its melting.",
-                                "I implemented the collectible/quest system, and UI elements.",
-                                "This game was made during the Wonderjam organized by AEMI-UQAC sponsored by Unisoft-Saguenay. The theme was 'frontiers' and we were attributed 3 sub-themes : 'collector', 'rogue-lite' and 'quest'."],
-                "color" : "#39ccbb",
-                "link": "https://kiribaton.itch.io/melty",
-                "linkType": "Itch.io page",
-                "projectType": "Game jam project"
-            },
             {   
             "id": 9,
             "title": "Lift to Heaven",
@@ -183,6 +96,135 @@
             "linkType": "Itch.io page",
             "projectType": "Game jam project"
         },
+            {
+                "id": 12,
+                "title": "Bowling Builder",
+                "subtitle": "Strategic bowling game in Virtual Reality",
+                "carousel_content": [
+                    {
+                        "type": "youtube",
+                        "filename": "https://www.youtube.com/embed/k_tGYnsshRg?si=ZM2K87gCZm-OFnw0"
+                    }
+                ],
+                "badges": [
+                    "Team of 3",
+                    "1 trimester",
+                    "Unity"
+                ],
+                "description": [
+                    "*Bowling Builder* is a strategic bowling game in virtual reality, where the player can place blocs to deflect the ball's trajectory. They can also influence the ball when it is thrown by tilting their head. There are 3 levels with different obstacles (like trenches, walls), as well as a tutorial. ",
+                    "I worked on the 'bowling part' of the project : throwing the ball, hitting the pins, starting from a launch zone, managing the score and the reset zones. I also designed and implemented the tutorial and the first level, along with adding audio, visual and haptic feedbacks."
+                ],
+                "color": "#ea8b27c1",
+                "link": "https://github.com/IDalb/BowlingBuilder",
+                "linkType": "Github page",
+                "projectType": "UQAC project"
+            },
+            
+            {   
+                "id": 10,
+                "title": "Melty",
+                "subtitle" : "Wonderjam 2025",
+                "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/Melty/melty1.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Melty/melty2.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Melty/melty3.png"
+                    },
+                    {
+                        "type": "video",
+                        "filename": "/Melty/Melty.mp4"
+                    }                    
+                ],
+                "badges": ["Team of 4", "48 hours (game jam)", "Unreal engine (Blueprint)"],
+                "description": ["The player is an ice cube who wants to reach the boat at the beach before melting completely. The map is divided in several zones woth different temperatures, and the player must collect snowflakes to slow its melting.",
+                                "I implemented the collectible/quest system, and UI elements.",
+                                "This game was made during the Wonderjam organized by AEMI-UQAC sponsored by Unisoft-Saguenay. The theme was 'frontiers' and we were attributed 3 sub-themes : 'collector', 'rogue-lite' and 'quest'."],
+                "color" : "#39ccbb",
+                "link": "https://kiribaton.itch.io/melty",
+                "linkType": "Itch.io page",
+                "projectType": "Game jam project"
+            },
+
+             {
+            "id": 15,
+            "title": "Squicky",
+            "subtitle": "Serious game about forest protection",
+            "carousel_content": [
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky3.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky2.png"
+                    },                 
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky4.png"
+                    },
+                    {
+                        "type": "photo",
+                        "filename": "/Squicky/Squicky1.png"
+                    }
+                    
+                ],
+            "badges": [
+                "Team of 2",
+                "1 month",
+                "Unity"
+            ],
+            "description": [
+                "*Squicky* is an educational game designed to raise awareness about the right actions to take in the forest. It was created as part of a serious games course at UQAC. The player takes on the role of a squirrel who must protect their forest by picking up trash, extinguishing campfires, and moving tents placed in protected areas.",
+                "I was responsible for the level design as well as the interaction system and the trash collection mechanic.",
+                "The game is playable in a web browser."
+            ],
+            "color": "#58a826c1",
+            "link": "https://edorion.itch.io/squicky",
+            "linkType": "Page itch.io",
+            "projectType": "UQAC Project"
+        },
+
+            {
+                "id": 11,
+                "title": "Atubu",
+                "subtitle": "Mobile app : water tracker",
+                "carousel_content": [
+                        {
+                            "type": "photo",
+                            "filename": "/Atubu/Atubu1.png"
+                        },
+                        {
+                            "type": "photo",
+                            "filename": "/Atubu/Atubu2.png"
+                        },
+                        {
+                            "type": "photo",
+                            "filename": "/Atubu/Atubu3.png"
+                        }              
+                    ],
+                "badges": [
+                    "Team of 4",
+                    "1 trimester",
+                    "Android studio"
+                ],
+                "description": [
+                    "*Atubu* is a mobile app allowing you to track your water consumption, thanks to a plant reflecting your current hydration level. Its features include : registering the water quantity you drink every day, adding custom water glasses, consulting your garden (calendar), receiving notifications, adding a widget to your home page. ",
+                    "I particularly worked on the main page, implementing the gauge and plant state, along with the custom glasses, the unit changes (oz/mL), and a part of the garden page."
+                ],
+                "color": "#58a826c1",
+                "link": "https://github.com/Hel88/Atubu",
+                "linkType": "Github page",
+                "projectType": "UQAC project"
+            },
+            
         {   
             "id": 8,
             "title": "Frogy Frog",
