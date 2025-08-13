@@ -34,10 +34,11 @@
             ],
             "description": [
                 "*Neorush* is a local multiplayer motorcycle combat game (up to 4 players) where players must trap others using their light trails. This game is a 3D remake of the Tron arcade game. Players can compete against each other and against computer-controlled bikes.",
-                "During this project, I primarily worked on the AI for the opponent bikes. I used Unreal's AI framework with behavior trees and the EQS (Environment Query System) to give the AI interesting behavior. They play defensively by avoiding trails on the field but become aggressive toward other players when the opportunity arises. I also helped design the UI, and implemented the endgame screen.",
-                "*Itch.io page and video coming soon*"
+                "During this project, I primarily worked on the AI for the opponent bikes. I used Unreal's AI framework with behavior trees and the EQS (Environment Query System) to give the AI interesting behavior. They play defensively by avoiding trails on the field but become aggressive toward other players when the opportunity arises. I also helped design the UI, and implemented the endgame screen."
             ],
             "color": "#c86060",
+            "link": "https://hel88.itch.io/neorush",
+            "linkType": "Itch.io page",
             "projectType": "UQAC Project"
         },
             {
@@ -57,10 +58,11 @@
                 ],
                 "description": [
                     "*XSpin* is a multiplayer spinning tops combat game, where the players (2 to 4) fight on dynamic arenas, using their special capacities.",
-                    "I implemented the dynamic elements of the arenas : the bumpers and bats from the flipper map, as well as the canons on the pirate map (using Unreal's AI framework). I implemented the dynamic camera following the players, worked on the UI elements and the map's cinematics. I also made some 3D models (bumpers and flipper bats), as well as some VFX (smoke from the canons and wind on the pirate arena).",
-                    "*Itch.io page coming soon*"
+                    "I implemented the dynamic elements of the arenas : the bumpers and bats from the flipper map, as well as the canons on the pirate map (using Unreal's AI framework). I implemented the dynamic camera following the players, worked on the UI elements and the map's cinematics. I also made some 3D models (bumpers and flipper bats), as well as some VFX (smoke from the canons and wind on the pirate arena)."
                 ],
                 "color": "#39ccbb",
+                "link": "https://hel88.itch.io/xspin",
+                "linkType": "Itch.io page",
                 "projectType": "UQAC project"
             },
             {   

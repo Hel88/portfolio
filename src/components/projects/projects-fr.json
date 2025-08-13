@@ -35,10 +35,11 @@
             ],
             "description": [
                 "*Neorush* est un jeu de combat de motos en multijoueur local (jusqu'à 4 joueurs) où les joueurs doivent bloquer les autres avec leur trainée lumineuse. Ce jeu est un remake 3D du jeu d'arcade Tron. Les joueurs peuvent s'affronter entre eux, et affronter des motos contrôlées par l'ordinateur.",
-                "Durant ce projet, j'ai principalement travaillé sur les IA des motos adverses. J'ai utilisé le framework IA d'Unreal avec les behavior tree, ainsi que l'EQS (environment query system), afin de donner un comportement intéressant aux IA. Elles ont un comportement défensif en évitant les trainées sur le terrain, mais sont aggressives envers les autres joueurs quand l'opportunité se présente. J'ai également participé au design des UI, et implémenté l'écran de fin de partie.",
-                "*Page itch.io en construction, vidéo à venir*"
+                "Durant ce projet, j'ai principalement travaillé sur les IA des motos adverses. J'ai utilisé le framework IA d'Unreal avec les behavior tree, ainsi que l'EQS (environment query system), afin de donner un comportement intéressant aux IA. Elles ont un comportement défensif en évitant les trainées sur le terrain, mais sont aggressives envers les autres joueurs quand l'opportunité se présente. J'ai également participé au design des UI, et implémenté l'écran de fin de partie."
             ],
             "color": "#c86060",
+            "link": "https://hel88.itch.io/neorush",
+            "linkType": "Page itch.io",
             "projectType": "Projet UQAC"
         },
         
@@ -59,10 +60,11 @@
             ],
             "description": [
                 "*XSpin* est un jeu de combat de toupies où les joueurs (2 à 4) s’affrontent dans une arène dynamique, en utilisant diverses capacités.",
-                "J'ai implémenté les éléments dynamiques des arènes : les bumpers et flipper bats de l'arène flipper, ainsi que les canons de l'arène pirate (en utilisant le framework IA d'Unreal). J'ai implémenté la caméra dynamique, travaillé sur les UI et les cinématiques d'introduction des niveaux. J'ai également fait quelques modèles 3D (bumper et flipper bat) ainsi que des VFX (fumée des canons et vent de l'arène pirate).",
-                "*Page itch.io en construction*"
+                "J'ai implémenté les éléments dynamiques des arènes : les bumpers et flipper bats de l'arène flipper, ainsi que les canons de l'arène pirate (en utilisant le framework IA d'Unreal). J'ai implémenté la caméra dynamique, travaillé sur les UI et les cinématiques d'introduction des niveaux. J'ai également fait quelques modèles 3D (bumper et flipper bat) ainsi que des VFX (fumée des canons et vent de l'arène pirate)."
             ],
             "color": "#39ccbb",
+            "link": "https://hel88.itch.io/xspin",
+            "linkType": "Page itch.io",
             "projectType": "Projet UQAC"
         },
         {
