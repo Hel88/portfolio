@@ -7,25 +7,9 @@
             "subtitle": "Multiplayer Motorcycle Game (Tron remake)",
             "carousel_content": [
                     {
-                        "type": "photo",
-                        "filename": "/Neorush/Screenshot_Gameplay4Joueurs.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Neorush/Screenshot_DeathScreen.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Neorush/Screenshot_Score.png"
-                    },                 
-                    {
-                        "type": "photo",
-                        "filename": "/Neorush/Screenshot_Menu.png"
-                    },
-                    {
-                        "type": "photo",
-                        "filename": "/Neorush/Screenshot_Partez.png"
-                    }                     
+                        "type": "youtube",
+                        "filename": "https://www.youtube.com/embed/9kkOmpbzCK0?si=B2wL6Oa7xlMcl3GO"
+                    }                  
                 ],
             "badges": [
                 "Team of 6",
