@@ -16,7 +16,7 @@ export default function Home() {
         <Navigation />
 
         {/* Paragraphe welcome */}
-        <About />
+        {/* <About /> */}
 
 
         {/* Projects */}
